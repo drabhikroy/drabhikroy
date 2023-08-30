@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋🏽, I'm Abhik Roy</h1>
-<h3 align="center">A Program Evaluator with a love for &hairsp; <a href="https://www.r-project.org" target="_blank" rel="noreferrer"> <span style="vertical-align: middle;"><img src="/icons/R-logo.svg" alt="R" height="30"/></a></span></h3>
+<h3 align="center">A Program Evaluator with a love for &hairsp; <a href="https://www.r-project.org" target="_blank" rel="noreferrer"> <span style="vertical-align: middle;"><img src="/icons/R-logo.svg" alt="R" height="18.72"/></a></span></h3>
 <br>
 
 
@@ -55,7 +55,7 @@
 <br>
 
 <p align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=drabhikroy&show_icons=true&theme=tokyonight&locale=en" height="150" alt="github stats" />
+<img src="https://github-readme-stats.vercel.app/api?username=drabhikroy&show_icons=true&theme=tokyonight&locale=en" height="150" alt="github stats" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <img src="https://github-readme-stats.vercel.app/api/top-langs?username=drabhikroy&show_icons=true&theme=tokyonight&locale=en&layout=compact" height="150" alt="most used languages" />
 </p>
 
