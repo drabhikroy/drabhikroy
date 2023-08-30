@@ -62,7 +62,10 @@
 </p>
 
 <br>
-<hr>
+
+<hr style="border: none;
+  height: 1px;">
+
 <br>
 <br>
 <p align="center">
