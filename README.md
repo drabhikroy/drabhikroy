@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm Abhik Roy</h1>
+<h1 align="center">Hi 👋🏽, I'm Abhik Roy</h1>
 <h3 align="center">A Program Evaluator with a love for &hairsp; <a href="https://www.r-project.org" target="_blank" rel="noreferrer"> <span style="vertical-align: middle;"><img src="/icons/R-logo.svg" alt="R" height="30"/></a></span></h3>
 <br>
 
@@ -21,7 +21,7 @@
 
 <br>
 
-<h3 align="center">Languages and Tools:</h3>
+<h3 align="center">Languages and tools I typically use:</h3>
 <br>
 <p align="center">
 <a href="https://www.r-project.org" target="_blank" rel="noreferrer"> <img src="/icons/R-logo.svg" alt="R" width="43" height="43"/> </a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -39,7 +39,7 @@
 
 <br>
 
-<h3 align="center">Classes I've Taught:</h3>
+<h3 align="center">Classes I've taught:</h3>
 <br>
 <p align="center">
 <a href="https://edp611.asocialdatascientist.com" target="_blank" rel="noreferrer"> <img src="/img/edp611.png" alt="Measurement/Evaluation in Educational Psychology" height="80"/> </a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
