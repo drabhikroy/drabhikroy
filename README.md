@@ -39,6 +39,20 @@
 
 <br>
 
+<h3 align="center">Classes I've Taught:</h3>
+<br>
+<p align="center">
+<a href="https://edp611.asocialdatascientist.com" target="_blank" rel="noreferrer"> <img src="/img/edp611.png" alt="Measurement/Evaluation in Educational Psychology" height="80"/> </a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://edp612.asocialdatascientist.com" target="_blank" rel="noreferrer"> <img src="/img/edp612.png" alt="Introduction to Research" height="80"/> </a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://edp613.asocialdatascientist.com" target="_blank" rel="noreferrer"> <img src="/img/edp613.png" alt="Statistical Methods I" height="80"/> </a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://edp617.asocialdatascientist.com" target="_blank" rel="noreferrer"> <img src="/img/edp617.png" alt="Program Evaluation" height="80"/> </a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://edp618.asocialdatascientist.com" target="_blank" rel="noreferrer"> <img src="/img/edp618.png" alt="Mixing Research Methods" height="80"/> </a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://edp619.asocialdatascientist.com" target="_blank" rel="noreferrer"> <img src="/img/edp619.png" alt="Survey Research Methods" height="80"/> </a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://edp693e.asocialdatascientist.com" target="_blank" rel="noreferrer"> <img src="/img/edp693e.png" alt="Data Visualization" height="80"/> </a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://edp693g.asocialdatascientist.com" target="_blank" rel="noreferrer"> <img src="/img/edp693g.png" alt="Social Network Analysis" height="80"/> </a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</p>
+
+<br>
 
 <p align="center">
 <img src="https://github-readme-stats.vercel.app/api?username=drabhikroy&show_icons=true&theme=transparent&locale=en" height="150" alt="github stats" />
