@@ -30,7 +30,7 @@
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="/icons/JS-logo.svg" alt="JavaScript" width="40" height="40"/> </a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <a href="https://d3js.org/" target="_blank" rel="noreferrer"> <img src="/icons/d3-logo.svg" alt="d3.js" width="40" height="40"/> </a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <a href="https://www.latex-project.org" target="_blank" rel="noreferrer"> <img src="/icons/LaTeX_logo_white.svg" alt="LaTeX" width="40" height="40"/> </a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="https://posit.co/download/rstudio-desktop/" target="_blank" rel="noreferrer"> <img src="/icons/Rstudio-logo.svg" alt="RStudio" width="40" height="40"/> </a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://posit.co/download/rstudio-desktop/" target="_blank" rel="noreferrer"> <img src="/icons/RStudio-logo.svg" alt="RStudio" width="40" height="40"/> </a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <a href="https://www.tableau.com/" target="_blank" rel="noreferrer"> <img src="/icons/tableau-logo.svg" alt="Tableau" width="40" height="40"/> </a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <a href="https://www.photoshop.com/en" target="_blank" rel="noreferrer"> <img src="/icons/Adobe-Photoshop-logo.svg" alt="Adobe Photoshop" width="40" height="40"/> </a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <a href="https://gohugo.io/" target="_blank" rel="noreferrer"> <img src="/icons/Hugo-logo.svg" alt="Hugo" width="40" height="40"/> </a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
