@@ -63,8 +63,7 @@
 
 <br>
 
-<hr style="border: none;
-  height: 1px;">
+#
 
 <br>
 <br>
