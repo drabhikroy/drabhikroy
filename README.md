@@ -3,11 +3,13 @@
 <br>
 
 
-- 🌱 I’m currently learning [**Observable**](https://observablehq.com)
+- &#x1F6E0;&#xFE0F; I’m currently learning [**Observable**](https://observablehq.com)
 
-- 👨🏽‍💻 Most current & former projects are available on my [webpage](https://iam.asocialdatascientist.com)
+- &#x1F468;&#x1F3FD;&#x200D;&#x1F4BB; Most current & former projects are available on my [webpage](https://iam.asocialdatascientist.com)
 
-- 📄 Take a look at my [resume](https://iam.asocialdatascientist.com/work/resume)
+- &#x1F4C4; Take a look at my [resume](https://iam.asocialdatascientist.com/work/resume)
+
+- &#x1F4DA; Right now I'm reading [*Response rates of online surveys in published research: A meta-analysis*](https://www.sciencedirect.com/science/article/pii/S2451958822000409) (Wu, Zhao & Fils-Aime, 2022)
 
 <br>
 
@@ -60,5 +62,9 @@
 </p>
 
 <br>
-
-<p align="center"></p>
+<hr>
+<br>
+<br>
+<p align="center">
+<img src="/img/run-r.png" alt="Social Network Analysis" height="200"/> </a>
+</p>
