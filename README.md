@@ -1,5 +1,4 @@
 <h1 align="center">Hi 👋🏽, I'm Abhik Roy</h1>
-<br>
 <h3 align="center">A Program Evaluator with a love for &hairsp; <a href="https://www.r-project.org" target="_blank" rel="noreferrer"> <span style="vertical-align: middle;"><img src="/icons/R-logo.svg" alt="R" height="18.72"/></a></span></h3>
 <br>
 
