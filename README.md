@@ -5,7 +5,7 @@
 
 - 🌱 I’m currently learning [**Observable**](https://observablehq.com)
 
-- 👨‍💻 Most current & former projects are available on my [webpage](https://iam.asocialdatascientist.com)
+- 👨🏽‍💻 Most current & former projects are available on my [webpage](https://iam.asocialdatascientist.com)
 
 - 📄 Take a look at my [resume](https://iam.asocialdatascientist.com/work/resume)
 
