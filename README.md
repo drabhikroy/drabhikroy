@@ -9,16 +9,14 @@
 
 - &#x1F4C4; Take a look at my [resume](https://iam.asocialdatascientist.com/work/resume)
 
-- &#x1F4DA; Right now I'm reading [*Response rates of online surveys in published research: A meta-analysis*](https://www.sciencedirect.com/science/article/pii/S2451958822000409) (Wu, Zhao & Fils-Aime, 2022)
-
 <br>
 
 <h3 align="center">Connect with me:</h3>
 <br>
 <p align="center">
-<a href="https://codepen.io/abhikrroy" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codepen.svg" alt="abhikrroy" height="30" width="40" /></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="https://linkedin.com/in/abhikrroy" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="abhikrroy" height="30" width="40" /></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="https://stackoverflow.com/users/abhikrroy" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/stack-overflow.svg" alt="abhikrroy" height="30" width="40" /></a>
+<a href="https://codepen.io/abhikrroy" target="blank"><img align="center" src="/icons/codepen-logo.svg" alt="abhikrroy @codepen" width="40" /></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://linkedin.com/in/abhikrroy" target="blank"><img align="center" src="/icons/LinkedIn-logo.svg" alt="abhikrroy @LinkedIn" height="30" width="40" /></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://stackoverflow.com/users/abhikrroy" target="blank"><img align="center" src="/icons/stack-overflow-logo.svg" alt="abhikrroy @stackoverflow" width="40" /></a>
 </p>
 
 <br>
