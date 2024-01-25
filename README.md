@@ -16,7 +16,7 @@
 <p align="center">
 <a href="https://codepen.io/abhikrroy" target="blank"><img align="center" src="/icons/codepen-logo.svg" alt="abhikrroy @codepen" width="40" /></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <a href="https://linkedin.com/in/abhikrroy" target="blank"><img align="center" src="/icons/LinkedIn-logo.svg" alt="abhikrroy @LinkedIn" height="30" width="40" /></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="https://stackoverflow.com/users/abhikrroy" target="blank"><img align="center" src="/icons/stack-overflow-logo.svg" alt="abhikrroy @stackoverflow" width="40" /></a>
+<a href="https://stackoverflow.com/users/8794733/obe" target="blank"><img align="center" src="/icons/stack-overflow-logo.svg" alt="abhikrroy @stackoverflow" width="40" /></a>
 </p>
 
 <br>
