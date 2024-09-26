@@ -1,3 +1,3 @@
-git add . && git commit -m edp693g && git checkout edp693g && git push https://github.com/drabhikroy/Courses.git edp693g:edp693g
+git add . && git commit -m drabhikroy && git checkout drabhikroy && git push
 
-# git fetch https://github.com/drabhikroy/Courses.git edp693g:edp693g
+# https://github.com/drabhikroy/drabhikroy.git
