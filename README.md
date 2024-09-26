@@ -5,9 +5,9 @@
 
 - &#x1F6E0;&#xFE0F; I’m currently learning [**Observable**](https://observablehq.com)
 
-- &#x1F468;&#x1F3FD;&#x200D;&#x1F4BB; Most current & former projects are available on my [webpage](https://iam.asocialdatascientist.com)
+- &#x1F468;&#x1F3FD;&#x200D;&#x1F4BB; Most current & former projects are available on my [webpage](https://abhikroyphd.com)
 
-- &#x1F4C4; Take a look at my [resume](https://iam.asocialdatascientist.com/work/resume)
+- &#x1F4C4; Take a look at my [resume](https://abhikroyphd.com/work/resume) or [CV](https://abhikroyphd.com/work/cv)
 
 <br>
 
@@ -16,7 +16,7 @@
 <p align="center">
 <a href="https://codepen.io/abhikrroy" target="blank"><img align="center" src="/icons/codepen-logo.svg" alt="abhikrroy @codepen" width="40" /></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <a href="https://linkedin.com/in/abhikrroy" target="blank"><img align="center" src="/icons/LinkedIn-logo.svg" alt="abhikrroy @LinkedIn" height="30" width="40" /></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="https://stackoverflow.com/users/8794733/obe" target="blank"><img align="center" src="/icons/stack-overflow-logo.svg" alt="abhikrroy @stackoverflow" width="40" /></a>
+<a href="https://stackoverflow.com/users/abhikrroy" target="blank"><img align="center" src="/icons/stack-overflow-logo.svg" alt="abhikrroy @stackoverflow" width="40" /></a>
 </p>
 
 <br>
@@ -42,14 +42,14 @@
 <h3 align="center">Classes I've taught:</h3>
 <br>
 <p align="center">
-<a href="https://edp611.asocialdatascientist.com" target="_blank" rel="noreferrer"> <img src="/img/edp611.png" alt="Measurement/Evaluation in Educational Psychology" height="80"/> </a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="https://edp612.asocialdatascientist.com" target="_blank" rel="noreferrer"> <img src="/img/edp612.png" alt="Introduction to Research" height="80"/> </a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="https://edp613.asocialdatascientist.com" target="_blank" rel="noreferrer"> <img src="/img/edp613.png" alt="Statistical Methods I" height="80"/> </a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="https://edp617.asocialdatascientist.com" target="_blank" rel="noreferrer"> <img src="/img/edp617.png" alt="Program Evaluation" height="80"/> </a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="https://edp618.asocialdatascientist.com" target="_blank" rel="noreferrer"> <img src="/img/edp618.png" alt="Mixing Research Methods" height="80"/> </a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="https://edp619.asocialdatascientist.com" target="_blank" rel="noreferrer"> <img src="/img/edp619.png" alt="Survey Research Methods" height="80"/> </a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="https://edp693e.asocialdatascientist.com" target="_blank" rel="noreferrer"> <img src="/img/edp693e.png" alt="Data Visualization" height="80"/> </a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="https://edp693g.asocialdatascientist.com" target="_blank" rel="noreferrer"> <img src="/img/edp693g.png" alt="Social Network Analysis" height="80"/> </a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://edp611.abhikroyphd.com" target="_blank" rel="noreferrer"> <img src="/img/edp611.png" alt="Measurement/Evaluation in Educational Psychology" height="80"/> </a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://edp612.abhikroyphd.com" target="_blank" rel="noreferrer"> <img src="/img/edp612.png" alt="Introduction to Research" height="80"/> </a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://edp613.abhikroyphd.com" target="_blank" rel="noreferrer"> <img src="/img/edp613.png" alt="Statistical Methods I" height="80"/> </a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://edp617.abhikroyphd.com" target="_blank" rel="noreferrer"> <img src="/img/edp617.png" alt="Program Evaluation" height="80"/> </a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://edp618.abhikroyphd.com" target="_blank" rel="noreferrer"> <img src="/img/edp618.png" alt="Mixing Research Methods" height="80"/> </a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://edp619.abhikroyphd.com" target="_blank" rel="noreferrer"> <img src="/img/edp619.png" alt="Survey Research Methods" height="80"/> </a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://edp693e.abhikroyphd.com" target="_blank" rel="noreferrer"> <img src="/img/edp693e.png" alt="Data Visualization" height="80"/> </a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://edp693g.abhikroyphd.com" target="_blank" rel="noreferrer"> <img src="/img/edp693g.png" alt="Social Network Analysis" height="80"/> </a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </p>
 
 <br>
