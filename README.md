@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋🏽, I'm Abhik Roy</h1>
-<h3 align="center">a <i>program evaluator</i> with a thing for everything &hairsp; <a href="https://www.r-project.org" target="_blank" rel="noreferrer"> <span style="vertical-align: middle;"><img src="/icons/R-logo.svg" alt="R" height="18.72"/></a></span></h3>
+<h3 align="center">a <i>methodologist</i> and <i>program evaluator</i> with a thing for everything &hairsp; <a href="https://www.r-project.org" target="_blank" rel="noreferrer"> <span style="vertical-align: middle;"><img src="/icons/R-logo.svg" alt="R" height="18.72"/></a></span></h3>
 <br>
 
 
