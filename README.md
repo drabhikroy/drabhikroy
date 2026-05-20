@@ -1,59 +1,63 @@
 <h1 align="center">Hi 👋🏽, I'm Abhik Roy</h1>
-<h3 align="center">a <i>methodologist</i> and <i>program evaluator</i> with a thing for everything &hairsp; <a href="https://www.r-project.org" target="_blank" rel="noreferrer"> <span style="vertical-align: middle;"><img src="/icons/R-logo.svg" alt="R" height="18.72"/></a></span></h3>
-<br>
 
-
-- &#x1F6E0;&#xFE0F; I wrote a small open source program called [**Eigenframe**](https://github.com/drabhikroy/Eigenframe) that can handle dynamic and static wallpapers on a ARM based Mac
-
-<br>
-
-<h3 align="center">Connect with me:</h3>
-<br>
 <p align="center">
-<a href="https://codepen.io/abhikrroy" target="blank"><img align="center" src="/icons/codepen-logo.svg" alt="abhikrroy @codepen" width="40" /></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="https://linkedin.com/in/abhikrroy" target="blank"><img align="center" src="/icons/LinkedIn-logo.svg" alt="abhikrroy @LinkedIn" height="30" width="40" /></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="https://stackoverflow.com/users/abhikrroy" target="blank"><img align="center" src="/icons/stack-overflow-logo.svg" alt="abhikrroy @stackoverflow" width="40" /></a>
+  <i>Methodologist · Program Evaluator · R Enthusiast</i>
+</p>
+
+<p align="center">
+  I build evaluation systems, data tools, visualizations, and the occasional odd little app.
 </p>
 
 <br>
 
-<h3 align="center">Languages and tools I typically use:</h3>
+<h2 align="center">Fun things</h2>
 <br>
+
 <p align="center">
-<a href="https://www.r-project.org" target="_blank" rel="noreferrer"> <img src="/icons/R-logo.svg" alt="R" width="43" height="43"/> </a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="/icons/HTML5-logo.svg" alt="html5" width="40" height="40"/> </a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="/icons/CSS3-logo.svg" alt="css3" width="40" height="40"/> </a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="/icons/JS-logo.svg" alt="JavaScript" width="40" height="40"/> </a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="https://d3js.org/" target="_blank" rel="noreferrer"> <img src="/icons/d3-logo.svg" alt="d3.js" width="40" height="40"/> </a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="https://www.latex-project.org" target="_blank" rel="noreferrer"> <img src="/icons/LaTeX_logo_white.svg" alt="LaTeX" width="40" height="40"/> </a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="https://posit.co/download/rstudio-desktop/" target="_blank" rel="noreferrer"> <img src="/icons/RStudio-logo.svg" alt="RStudio" width="40" height="40"/> </a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="https://www.tableau.com/" target="_blank" rel="noreferrer"> <img src="/icons/tableau-logo.svg" alt="Tableau" width="40" height="40"/> </a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="https://www.photoshop.com/en" target="_blank" rel="noreferrer"> <img src="/icons/Adobe-Photoshop-logo.svg" alt="Adobe Photoshop" width="40" height="40"/> </a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="https://gohugo.io/" target="_blank" rel="noreferrer"> <img src="/icons/Hugo-logo.svg" alt="Hugo" width="40" height="40"/> </a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="/icons/git-logo.svg" alt="git" width="40" height="40"/> </a>
+  🛠️ I recently wrote <a href="https://github.com/drabhikroy/Eigenframe"><b>Eigenframe</b></a>, an open source macOS app for running different dynamic and static wallpapers across desktop Spaces.
 </p>
 
 <br>
 
-<h3 align="center">Classes I've taught:</h3>
+<h2 align="center">Languages and tools</h2>
 <br>
+
+<p align="center"><img src="/icons/R-logo.svg" alt="R" height="48" data-url="https://www.r-project.org"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="/icons/HTML5-logo.svg" alt="HTML5" height="48" data-url="https://www.w3.org/html/"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="/icons/CSS3-logo.svg" alt="CSS3" height="48" data-url="https://www.w3schools.com/css/"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="/icons/JS-logo.svg" alt="JavaScript" height="48" data-url="https://developer.mozilla.org/en-US/docs/Web/JavaScript"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="/icons/d3-logo.svg" alt="d3.js" height="48" data-url="https://d3js.org/"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="/icons/LaTeX_logo_white.svg" alt="LaTeX" height="48" data-url="https://www.latex-project.org"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="/icons/RStudio-logo.svg" alt="RStudio" height="48" data-url="https://posit.co/download/rstudio-desktop/"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="/icons/tableau-logo.svg" alt="Tableau" height="48" data-url="https://www.tableau.com/"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="/icons/Adobe-Photoshop-logo.svg" alt="Adobe Photoshop" height="48" data-url="https://www.photoshop.com/en"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="/icons/Hugo-logo.svg" alt="Hugo" height="48" data-url="https://gohugo.io/"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="/icons/git-logo.svg" alt="Git" height="48" data-url="https://git-scm.com/"/></p>
+
+<br>
+
+<h2 align="center">Graduate courses taught during my time as an Assistant Professor at West Virginia University</h2>
+<br>
+
 <p align="center">
-<a href="https://edp611.abhikroyphd.com" target="_blank" rel="noreferrer"> <img src="/img/edp611.png" alt="Measurement/Evaluation in Educational Psychology" height="80"/> </a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="https://edp612.abhikroyphd.com" target="_blank" rel="noreferrer"> <img src="/img/edp612.png" alt="Introduction to Research" height="80"/> </a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="https://edp613.abhikroyphd.com" target="_blank" rel="noreferrer"> <img src="/img/edp613.png" alt="Statistical Methods I" height="80"/> </a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="https://edp617.abhikroyphd.com" target="_blank" rel="noreferrer"> <img src="/img/edp617.png" alt="Program Evaluation" height="80"/> </a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="https://edp618.abhikroyphd.com" target="_blank" rel="noreferrer"> <img src="/img/edp618.png" alt="Mixing Research Methods" height="80"/> </a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="https://edp619.abhikroyphd.com" target="_blank" rel="noreferrer"> <img src="/img/edp619.png" alt="Survey Research Methods" height="80"/> </a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="https://edp693e.abhikroyphd.com" target="_blank" rel="noreferrer"> <img src="/img/edp693e.png" alt="Data Visualization" height="80"/> </a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="https://edp693g.abhikroyphd.com" target="_blank" rel="noreferrer"> <img src="/img/edp693g.png" alt="Social Network Analysis" height="80"/> </a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="/img/edp611.png" alt="Measurement/Evaluation in Educational Psychology" width="220" data-url="https://edp611.abhikroyphd.com"/>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="/img/edp612.png" alt="Introduction to Research" width="220" data-url="https://edp612.abhikroyphd.com"/>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="/img/edp613.png" alt="Statistical Methods I" width="220" data-url="https://edp613.abhikroyphd.com"/>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="/img/edp617.png" alt="Program Evaluation" width="220" data-url="https://edp617.abhikroyphd.com"/>
+</p>
+
+<p align="center">
+  <img src="/img/edp618.png" alt="Mixing Research Methods" width="220" data-url="https://edp618.abhikroyphd.com"/>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="/img/edp619.png" alt="Survey Research Methods" width="220" data-url="https://edp619.abhikroyphd.com"/>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="/img/edp693e.png" alt="Data Visualization" width="220" data-url="https://edp693e.abhikroyphd.com"/>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="/img/edp693g.png" alt="Social Network Analysis" width="220" data-url="https://edp693g.abhikroyphd.com"/>
 </p>
 
 <br>
 
-#
+<h2 align="center">Connect with me</h2>
+<br>
+
+<p align="center"><img src="/icons/codepen-logo.svg" alt="abhikrroy @CodePen" height="52" data-url="https://codepen.io/abhikrroy"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="/icons/LinkedIn-logo.svg" alt="abhikrroy @LinkedIn" height="52" data-url="https://linkedin.com/in/abhikrroy"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="/icons/stack-overflow-logo.svg" alt="abhikrroy @Stack Overflow" height="52" data-url="https://stackoverflow.com/users/abhikrroy"/></p>
 
 <br>
-<br>
+
 <p align="center">
-<img src="/img/run-r.png" alt="Social Network Analysis" height="200"/> </a>
+  <img src="/img/run-r.png" alt="Run R" height="200"/>
 </p>
