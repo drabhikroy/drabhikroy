@@ -3,11 +3,7 @@
 <br>
 
 
-- &#x1F6E0;&#xFE0F; I’m currently learning [**Observable**](https://observablehq.com)
-
-- &#x1F468;&#x1F3FD;&#x200D;&#x1F4BB; Most current & former projects are available on my [webpage](https://abhikroyphd.com)
-
-- &#x1F4C4; Take a look at my [resume](https://abhikroyphd.com/work/resume) or [CV](https://abhikroyphd.com/work/cv)
+- &#x1F6E0;&#xFE0F; I wrote a small open source program called [**Eigenframe**](https://github.com/drabhikroy/Eigenframe) that can handle dynamic and static wallpapers on a ARM based Mac
 
 <br>
 
@@ -50,13 +46,6 @@
 <a href="https://edp619.abhikroyphd.com" target="_blank" rel="noreferrer"> <img src="/img/edp619.png" alt="Survey Research Methods" height="80"/> </a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <a href="https://edp693e.abhikroyphd.com" target="_blank" rel="noreferrer"> <img src="/img/edp693e.png" alt="Data Visualization" height="80"/> </a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <a href="https://edp693g.abhikroyphd.com" target="_blank" rel="noreferrer"> <img src="/img/edp693g.png" alt="Social Network Analysis" height="80"/> </a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</p>
-
-<br>
-
-<p align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=drabhikroy&show_icons=true&theme=tokyonight&locale=en" height="150" alt="github stats" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="https://github-readme-stats.vercel.app/api/top-langs?username=drabhikroy&show_icons=true&theme=tokyonight&locale=en&layout=compact" height="150" alt="most used languages" />
 </p>
 
 <br>
