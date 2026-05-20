@@ -26,7 +26,7 @@
 
 <br>
 
-<h2 align="center">Graduate courses taught during my time as an Assistant Professor at West Virginia University</h2>
+<h2 align="center">Graduate courses taught during my time as an Assistant Professor</h2>
 <br>
 
 <p align="center">
