@@ -3,7 +3,7 @@
   <img src="/icons/tagline.svg" alt="Methodologist · Program Evaluator · R Enthusiast"/>
 </p>
 <p align="center">
-  I build evaluation systems, data tools, visualizations, and the occasional odd little app.
+  I conduct program evaluations, build data tools and visualizations, and write the occasional app out of spite.
 </p>
 <br>
 <h2 align="center">Fun things (maybe?)</h2>
