@@ -39,7 +39,7 @@
 <br>
 <p align="center"><img src="/icons/R-logo.svg" alt="R" height="40"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="/icons/HTML5-logo.svg" alt="HTML5" height="40"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="/icons/CSS3-logo.svg" alt="CSS3" height="40"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="/icons/JS-logo.svg" alt="JavaScript" height="40"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="/icons/d3-logo.svg" alt="d3.js" height="40"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="/icons/LaTeX_logo_white.svg" alt="LaTeX" height="40"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="/icons/RStudio-logo.svg" alt="RStudio" height="40"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="/icons/tableau-logo.svg" alt="Tableau" height="40"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="/icons/Adobe-Photoshop-logo.svg" alt="Adobe Photoshop" height="40"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="/icons/Hugo-logo.svg" alt="Hugo" height="40"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="/icons/git-logo.svg" alt="Git" height="40"/></p>
 <br>
-<h2 align="center">Graduate courses taught during my time as an Assistant Professor</h2>
+<h2 align="center">Graduate courses taught during my time as an assistant professor</h2>
 <br>
 <p align="center">
   <img src="/img/edp611.png" alt="Measurement/Evaluation in Educational Psychology" width="170"/>
