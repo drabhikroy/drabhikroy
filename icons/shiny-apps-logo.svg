@@ -1,17 +1,30 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48">
   <!-- Window body -->
   <rect width="48" height="48" rx="7" fill="#1c1c1e"/>
-  <!-- Axes -->
-  <line x1="10" y1="8" x2="10" y2="38" stroke="#555" stroke-width="1.5" stroke-linecap="round"/>
-  <line x1="10" y1="38" x2="42" y2="38" stroke="#555" stroke-width="1.5" stroke-linecap="round"/>
-  <!-- Area fill -->
-  <path d="M10,30 L18,21 L26,25 L34,13 L42,17 L42,38 L10,38 Z" fill="#4fc3f7" opacity="0.18"/>
-  <!-- Line -->
-  <polyline points="10,30 18,21 26,25 34,13 42,17" stroke="#4fc3f7" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
-  <!-- Data points -->
-  <circle cx="10" cy="30" r="2.2" fill="#4fc3f7"/>
-  <circle cx="18" cy="21" r="2.2" fill="#4fc3f7"/>
-  <circle cx="26" cy="25" r="2.2" fill="#4fc3f7"/>
-  <circle cx="34" cy="13" r="2.2" fill="#4fc3f7"/>
-  <circle cx="42" cy="17" r="2.2" fill="#4fc3f7"/>
+  <!-- Title bar -->
+  <rect width="48" height="13" rx="7" fill="#2c2c2e"/>
+  <rect y="6" width="48" height="7" fill="#2c2c2e"/>
+  <!-- Traffic lights -->
+  <circle cx="9"  cy="6.5" r="2.5" fill="#ff5f57"/>
+  <circle cx="17" cy="6.5" r="2.5" fill="#febc2e"/>
+  <circle cx="25" cy="6.5" r="2.5" fill="#28c840"/>
+  <!-- Slider 1 label -->
+  <text x="8" y="23" font-family="monospace" font-size="5.5" fill="#666">n</text>
+  <!-- Slider 1 track -->
+  <line x1="14" y1="21" x2="41" y2="21" stroke="#3a3a3c" stroke-width="3" stroke-linecap="round"/>
+  <!-- Slider 1 filled portion -->
+  <line x1="14" y1="21" x2="30" y2="21" stroke="#4fc3f7" stroke-width="3" stroke-linecap="round"/>
+  <!-- Slider 1 thumb -->
+  <circle cx="30" cy="21" r="4.5" fill="#4fc3f7"/>
+  <!-- Slider 2 label -->
+  <text x="8" y="34" font-family="monospace" font-size="5.5" fill="#666">k</text>
+  <!-- Slider 2 track -->
+  <line x1="14" y1="32" x2="41" y2="32" stroke="#3a3a3c" stroke-width="3" stroke-linecap="round"/>
+  <!-- Slider 2 filled portion -->
+  <line x1="14" y1="32" x2="20" y2="32" stroke="#4fc3f7" stroke-width="3" stroke-linecap="round"/>
+  <!-- Slider 2 thumb -->
+  <circle cx="20" cy="32" r="4.5" fill="#4fc3f7"/>
+  <!-- Run button -->
+  <rect x="14" y="39" width="27" height="6" rx="2" fill="#28c840" opacity="0.85"/>
+  <text x="27.5" y="43.5" font-family="monospace" font-size="4.5" fill="#1c1c1e" text-anchor="middle">Run</text>
 </svg>
