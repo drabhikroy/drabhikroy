@@ -3,7 +3,7 @@
   <img src="/icons/tagline.svg" alt="Methodologist · Program Evaluator · R Enthusiast"/>
 </p>
 <p align="center">
-  I conduct program evaluations, build data tools and visualizations, and write the occasional app out of spite.
+  I build evaluation systems, data tools, visualizations, and the occasional odd little app.
 </p>
 <br>
 <h2 align="center">Fun things (maybe?)</h2>
@@ -42,22 +42,22 @@
 <h2 align="center">Graduate courses taught during my time as an Assistant Professor</h2>
 <br>
 <p align="center">
-  <img src="/img/edp611.png" alt="Measurement/Evaluation in Educational Psychology" width="220"/>
+  <img src="/img/edp611.png" alt="Measurement/Evaluation in Educational Psychology" width="170"/>
   &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="/img/edp612.png" alt="Introduction to Research" width="220"/>
+  <img src="/img/edp612.png" alt="Introduction to Research" width="170"/>
   &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="/img/edp613.png" alt="Statistical Methods I" width="220"/>
+  <img src="/img/edp613.png" alt="Statistical Methods I" width="170"/>
   &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="/img/edp617.png" alt="Program Evaluation" width="220"/>
+  <img src="/img/edp617.png" alt="Program Evaluation" width="170"/>
 </p>
 <p align="center">
-  <img src="/img/edp618.png" alt="Mixing Research Methods" width="220"/>
+  <img src="/img/edp618.png" alt="Mixing Research Methods" width="170"/>
   &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="/img/edp619.png" alt="Survey Research Methods" width="220"/>
+  <img src="/img/edp619.png" alt="Survey Research Methods" width="170"/>
   &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="/img/edp693e.png" alt="Data Visualization" width="220"/>
+  <img src="/img/edp693e.png" alt="Data Visualization" width="170"/>
   &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="/img/edp693g.png" alt="Social Network Analysis" width="220"/>
+  <img src="/img/edp693g.png" alt="Social Network Analysis" width="170"/>
 </p>
 <br>
 <h2 align="center">Connect with me</h2>
