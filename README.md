@@ -11,15 +11,12 @@
 <p align="center">
   <img src="/icons/causality-icon-dark.svg" height="40" align="middle"/>&nbsp; <a href="https://github.com/drabhikroy/causality"><b>Causality</b></a>: A Shiny workbench for quasi-experimental analysis which supports optional machine learning models.
 </p>
-<br>
 <p align="center">
   <img src="/icons/nonconformity-icon-dark.svg" height="40" align="middle"/>&nbsp; <a href="https://github.com/drabhikroy/nonconformity"><b>Nonconformity</b></a>: A Shiny app for reviewing operational time series that also supports optional machine learning models.
 </p>
-<br>
 <p align="center">
-  <img src="/icons/tessera-icon-dark.svg" height="40" align="middle"/>&nbsp; <a href="https://github.com/drabhikroy/tessera"><b>Tessera</b></a>: A social network analysis dashboard written in Shiny that calculates key network measures, explains them in plain English, and supports optional machine learning models.
+  <img src="/icons/tessera-icon-dark.svg" height="40" align="middle"/>&nbsp; <a href="https://github.com/drabhikroy/tessera"><b>Tessera</b></a>: A social network analysis dashboard with plain-English descriptions that supports optional machine learning models.
 </p>
-<br>
 <p align="center">
   <img src="/icons/eigenframe-icon.svg" height="40" align="middle"/>&nbsp; <a href="https://github.com/drabhikroy/Eigenframe"><b>Eigenframe</b></a>: An open source macOS app for running different dynamic and static wallpapers across desktop Spaces.
 </p>
