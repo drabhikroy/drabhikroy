@@ -1,0 +1,30 @@
+\documentclass[10pt]{article}
+\usepackage[usenames]{color} %used for font color
+\usepackage{amssymb} %maths
+\usepackage{amsmath} %maths
+\usepackage[utf8]{inputenc} %useful to type directly diacritic characters
+\begin{document}
+\begin{align*}<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 52" width="800" height="52">
+  <style>
+    .bg-rect {
+      fill: #21262d; /* Dark mode background */
+    }
+    text {
+      font-family: ALSHauss-Regular, 'ALS Hauss', sans-serif;
+      font-size: 26px;
+      fill: #ffffff;
+    }
+    @media (prefers-color-scheme: light) {
+      .bg-rect { fill: #f6f8fa; } /* Light mode background */
+      text { fill: #24292f; }
+    }
+  </style>
+  
+  <!-- Background rectangle (adjust width and x to tightly fit your text) -->
+  <rect x="35" y="8" width="730" height="36" rx="6" class="bg-rect" />
+  
+  <!-- Centered text -->
+  <text x="400" y="33" text-anchor="middle">ᴍᴇᴛʜᴏᴅᴏʟᴏɢɪꜱᴛ &#160;·&#160; ᴘʀᴏɢʀᴀᴍ ᴇᴠᴀʟᴜᴀᴛᴏʀ &#160;·&#160; ʀ ᴇɴᴛʜᴜꜱɪᴀꜱᴛ</text>
+</svg>
+\end{align*}
+\end{document}
