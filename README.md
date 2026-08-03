@@ -5,7 +5,7 @@
 <p align="center">
   I conduct program evaluations, build data tools and visualizations, and write the occasional app out of spite.
 </p>
-
+<br>
 <h2 align="center">Fun things I made recently (depending on your definition of fun)</h2>
 <br>
 <p align="center">
