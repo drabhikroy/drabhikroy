@@ -7,6 +7,11 @@
   I conduct program evaluations, build data tools and visualizations, and write the occasional app out of spite.
 </p>
 
+<!-- Acts as an invisible 10px spacer -->
+<img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" height="10">
+
+
+
 ---
 
 ## 🚀 Some Recent Projects
@@ -26,7 +31,9 @@
 - <img src="/icons/eigenframe-icon.svg" height="18" align="center"> **[Eigenframe](https://github.com/drabhikroy/Eigenframe)** &mdash; macOS application for managing dynamic and static wallpapers across Spaces.<br>
   <code>Swift</code> <code>SwiftUI</code> <code>Live Wallpapers</code> <code>macOS</code>
 
-<br>
+<!-- Acts as an invisible 10px spacer -->
+<img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" height="3">
+
 
 ## 🧪 Older Projects & Experiments
 
@@ -41,6 +48,11 @@
 
 - <img src="/icons/qualtrics-snippets-logo.svg" height="16" align="center"> **[Qualtrics Snippets](https://github.com/drabhikroy/qualtrics-snippets)** &mdash; Reusable snippets and utilities for streamlining Qualtrics workflows.<br>
   <code>JavaScript</code>
+
+<!-- Acts as an invisible 10px spacer -->
+<img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" height="10">
+
+
 
 ---
 
@@ -59,6 +71,11 @@
   <img src="/icons/Hugo-logo.svg" alt="Hugo" height="32"/>&nbsp;&nbsp;
   <img src="/icons/git-logo.svg" alt="Git" height="32"/>
 </p>
+
+<!-- Acts as an invisible 10px spacer -->
+<img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" height="10">
+
+
 
 ---
 
@@ -79,6 +96,11 @@
   <img src="/img/edp693e.png" alt="Data Visualization" width="150"/>&nbsp;&nbsp;
   <img src="/img/edp693g.png" alt="Social Network Analysis" width="150"/>
 </p>
+
+<!-- Acts as an invisible 10px spacer -->
+<img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" height="10">
+
+
 
 ---
 
