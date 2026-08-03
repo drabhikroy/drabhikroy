@@ -6,7 +6,7 @@
   I conduct program evaluations, build data tools and visualizations, and write the occasional app out of spite.
 </p>
 
-<h2 align="center">Fun things I made recently (maybe?)</h2>
+<h2 align="center">Fun things I made recently (depending on your definition of fun)</h2>
 <br>
 <p align="center">
   <img src="/icons/daybreak-icon-dark.svg" height="40" align="middle"/>&nbsp; <a href="https://github.com/drabhikroy/daybreak"><b>Daybreak</b></a>: A Shiny workbench for statistical analysis and automated reporting that also supports optional machine learning models.
@@ -18,7 +18,7 @@
   <img src="/icons/nonconformity-icon-dark.svg" height="40" align="middle"/>&nbsp; <a href="https://github.com/drabhikroy/nonconformity"><b>Nonconformity</b></a>: A Shiny app for reviewing operational time series that also supports optional machine learning models.
 </p>
 <p align="center">
-  <img src="/icons/tessera-icon-dark.svg" height="40" align="middle"/>&nbsp; <a href="https://github.com/drabhikroy/tessera"><b>Tessera</b></a>: A social network analysis dashboard with plain-English descriptions that supports optional machine learning models.
+  <img src="/icons/tessera-icon-dark.svg" height="40" align="middle"/>&nbsp; <a href="https://github.com/drabhikroy/tessera"><b>Tessera</b></a>: A social network analysis Shiny dashboard with plain-English descriptions that supports optional machine learning models.
 </p>
 <p align="center">
   <img src="/icons/eigenframe-icon.svg" height="40" align="middle"/>&nbsp; <a href="https://github.com/drabhikroy/Eigenframe"><b>Eigenframe</b></a>: An open source macOS app for running different dynamic and static wallpapers across desktop Spaces.
