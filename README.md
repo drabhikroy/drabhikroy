@@ -16,7 +16,7 @@
 
 ## 🚀 Some Recent Projects
 
-- <img src="/icons/daybreak-icon-dark.svg" height="18" align="center"> **[Daybreak](https://github.com/drabhikroy/daybreak)** &mdash; Workbench for statistical analysis and automated reporting with optional ML workflows.<br>
+- <img src="/icons/daybreak-icon-dark.svg" height="18" align="center"> **[Daybreak](https://github.com/drabhikroy/daybreak)** &mdash; Platform for statistical analysis and automated reporting with optional ML workflows.<br>
   <code>R</code> <code>Shiny</code> <code>Statistical Analysis</code> <code>ML</code>
 
 - <img src="/icons/causality-icon-dark.svg" height="18" align="center"> **[Causality](https://github.com/drabhikroy/causality)** &mdash; Workbench for quasi-experimental analysis and causal inference with optional ML workflows.<br>
