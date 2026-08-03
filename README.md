@@ -5,9 +5,12 @@
 <p align="center">
   I conduct program evaluations, build data tools and visualizations, and write the occasional app out of spite.
 </p>
-<br>
+
 <h2 align="center">Fun things I made recently (maybe?)</h2>
 <br>
+<p align="center">
+  <img src="/icons/daybreak-icon-dark.svg" height="40" align="middle"/>&nbsp; <a href="https://github.com/drabhikroy/daybreak"><b>Daybreak</b></a>: A Shiny workbench for statistical analysis and automated reporting that also supports optional machine learning models.
+</p>
 <p align="center">
   <img src="/icons/causality-icon-dark.svg" height="40" align="middle"/>&nbsp; <a href="https://github.com/drabhikroy/causality"><b>Causality</b></a>: A Shiny workbench for quasi-experimental analysis which supports optional machine learning models.
 </p>
