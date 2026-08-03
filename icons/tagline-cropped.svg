@@ -4,30 +4,18 @@
 \usepackage{amsmath} %maths
 \usepackage[utf8]{inputenc} %useful to type directly diacritic characters
 \begin{document}
-\begin{align*}<?xml version="1.0" encoding="UTF-8"?>
-<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 297.2 11.8">
-  <!-- Generator: Adobe Illustrator 30.6.0, SVG Export Plug-In . SVG Version: 2.1.4 Build 109)  -->
-  <defs>
-    <style>
-      .st0 {
-        font-size: 10px;
-        fill: #ffffff;
-        isolation: isolate;
-      }
-
-      .st1 {
-        font-family: ArialMT, Arial;
-      }
-
-      .st2 {
-        font-family: ALSHauss-Regular, 'ALS Hauss';
-      }
-      @media (prefers-color-scheme: light) {
+\begin{align*}<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 52" width="800" height="52">
+  <style>
+    text {
+       font-family: ALSHauss-Regular, 'ALS Hauss';
+      font-size: 26px;
+      fill: #ffffff;
+    }
+    @media (prefers-color-scheme: light) {
       text { fill: #24292f; }
     }
-
-    </style>
-  </defs>
-  <text class="st0" transform="translate(0 8.6)"><tspan class="st1" x="0" y="0">METHODOLOGIST</tspan><tspan class="st2" x="87.8" y="0" xml:space="preserve">  ·  </tspan><tspan class="st1" x="99.2" y="0">PROGRAM EVALUATOR</tspan><tspan class="st2" x="214.2" y="0" xml:space="preserve">  ·  </tspan><tspan class="st1" x="225.7" y="0">R ENTHUSIAST</tspan></text>
-</svg>\end{align*}
+  </style>
+  <text x="400" y="38" text-anchor="middle">ᴍᴇᴛʜᴏᴅᴏʟᴏɢɪꜱᴛ &#160;·&#160; ᴘʀᴏɢʀᴀᴍ ᴇᴠᴀʟᴜᴀᴛᴏʀ &#160;·&#160; ʀ ᴇɴᴛʜᴜꜱɪᴀꜱᴛ</text>
+</svg>
+\end{align*}
 \end{document}
