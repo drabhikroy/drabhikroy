@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 38" style="background: transparent;">
+  <style>
+    :root {
+      color-scheme: light dark;
+    }
+    text {
+      font-family: ALSHauss-Regular, 'ALS Hauss';
+      font-size: 26px;
+      fill: #ffffff;
+      fill: light-dark(#24292f, #ffffff);
+    }
+    @media (prefers-color-scheme: light) {
+      text { fill: #24292f; }
+    }
+    @media (prefers-color-scheme: dark) {
+      text { fill: #ffffff; }
+    }
+  </style>
+  <text x="360" y="28" text-anchor="middle">ᴍᴇᴛʜᴏᴅᴏʟᴏɢɪꜱᴛ &#160;·&#160; ᴘʀᴏɢʀᴀᴍ ᴇᴠᴀʟᴜᴀᴛᴏʀ &#160;·&#160; ʀ ᴇɴᴛʜᴜꜱɪᴀꜱᴛ</text>
+</svg>
