@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" aria-labelledby="title">
+  <title id="title">Daybreak</title>
+  <rect width="48" height="48" rx="9" fill="#0D141B"/>
+  <circle cx="24" cy="24" r="18" fill="#F6C453"/>
+  <circle cx="17" cy="17" r="6.6" fill="#FFFFFF" opacity=".48"/>
+</svg>
