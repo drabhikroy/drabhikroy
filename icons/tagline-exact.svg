@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 626 38">
+  <style>
+    text {
+      font-family: ALSHauss-Regular, 'ALS Hauss';
+      font-size: 26px;
+      fill: #ffffff;
+    }
+    @media (prefers-color-scheme: light) {
+      text { fill: #24292f; }
+    }
+  </style>
+  <text x="313" y="28" text-anchor="middle">ᴍᴇᴛʜᴏᴅᴏʟᴏɢɪꜱᴛ &#160;·&#160; ᴘʀᴏɢʀᴀᴍ ᴇᴠᴀʟᴜᴀᴛᴏʀ &#160;·&#160; ʀ ᴇɴᴛʜᴜꜱɪᴀꜱᴛ</text>
+</svg>
