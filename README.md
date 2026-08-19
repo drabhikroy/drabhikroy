@@ -16,20 +16,23 @@
 
 ## 🚀 Some Recent Projects
 
-- <img src="/icons/daybreak-icon-dark.svg" height="18" align="center"> **[Daybreak](https://github.com/drabhikroy/daybreak)** &ndash; Platform for statistical analysis and automated reporting with optional ML workflows.<br>
-  <code>R</code> <code>Shiny</code> <code>Statistical Analysis</code> <code>ML</code>
+- <img src="/icons/chenoot-icon.svg" height="18" align="center"> **[Chenoot](https://github.com/drabhikroy/chenoot)** – Desktop application for creating survey instruments with local ML.<br>
+  <code>Electron</code> <code>macOS</code> <code>Survey Design</code> <code>Machine Learning</code>
+  
+- <img src="/icons/daybreak-icon-dark.svg" height="18" align="center"> **[Daybreak](https://github.com/drabhikroy/daybreak)** &ndash; Platform for statistical analysis and automated reporting with optional local ML.<br>
+  <code>R</code> <code>Shiny</code> <code>Statistical Analysis</code> <code>Machine Learning</code>
 
-- <img src="/icons/causality-icon-dark.svg" height="18" align="center"> **[Causality](https://github.com/drabhikroy/causality)** &ndash; Workbench for quasi-experimental analysis and causal inference with optional ML workflows.<br>
-  <code>R</code> <code>Shiny</code> <code>Causal</code> <code>ML</code>
+- <img src="/icons/causality-icon-dark.svg" height="18" align="center"> **[Causality](https://github.com/drabhikroy/causality)** &ndash; Workbench for quasi-experimental analysis and causal inference with optional local ML.<br>
+  <code>R</code> <code>Shiny</code> <code>Causal</code> <code>Machine Learning</code>
 
-- <img src="/icons/nonconformity-icon-dark.svg" height="18" align="center"> **[Nonconformity](https://github.com/drabhikroy/nonconformity)** &ndash; Dashboard for exploring operational time series and pattern discovery with optional ML workflows.<br>
-  <code>R</code> <code>Shiny</code> <code>Time Series</code> <code>ML</code>
+- <img src="/icons/nonconformity-icon-dark.svg" height="18" align="center"> **[Nonconformity](https://github.com/drabhikroy/nonconformity)** &ndash; Dashboard for exploring operational time series and pattern discovery with optional local ML.<br>
+  <code>R</code> <code>Shiny</code> <code>Time Series</code> <code>Machine Learning</code>
 
-- <img src="/icons/tessera-icon-dark.svg" height="18" align="center"> **[Tessera](https://github.com/drabhikroy/tessera)** &ndash; Social network analysis dashboard providing plain-English insights with optional ML workflows.<br>
-  <code>R</code> <code>Shiny</code> <code>SNA</code> <code>ML</code>
+- <img src="/icons/tessera-icon-dark.svg" height="18" align="center"> **[Tessera](https://github.com/drabhikroy/tessera)** &ndash; SNA dashboard providing plain-English insights with optional local ML.<br>
+  <code>R</code> <code>Shiny</code> <code>Social Network Analysis</code> <code>Machine Learning</code>
 
-- <img src="/icons/eigenframe-icon.svg" height="18" align="center"> **[Eigenframe](https://github.com/drabhikroy/Eigenframe)** &ndash; macOS application for managing dynamic and static wallpapers across Spaces.<br>
-  <code>Swift</code> <code>SwiftUI</code> <code>Live Wallpapers</code> <code>macOS</code>
+- <img src="/icons/eigenframe-icon.svg" height="18" align="center"> **[Eigenframe](https://github.com/drabhikroy/Eigenframe)** &ndash; Desktop application for managing dynamic and static wallpapers across Spaces.<br>
+  <code>Swift</code>  <code>macOS</code> <code>Live Wallpapers</code>
 
 <!-- Acts as an invisible 10px spacer -->
 <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" height="3">
