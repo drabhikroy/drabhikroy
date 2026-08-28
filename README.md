@@ -35,7 +35,7 @@
   <code>R</code> <code>Shiny</code> <code>Social Network Analysis</code> <code>Machine Learning</code>
 
 - <img src="/icons/eigenframe-icon.svg" height="18" align="center"> **[Eigenframe](https://github.com/drabhikroy/Eigenframe)** &ndash; Desktop application for managing dynamic and static wallpapers across Spaces.<br>
-  <code>Swift</code>  <code>macOS</code> <code>Live Wallpapers</code>
+  <code>Swift</code>  <code>macOS</code> <code>Live Wallpapers</code> <code>Spaces</code>
 
 <!-- Acts as an invisible 10px spacer -->
 <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" height="3">
