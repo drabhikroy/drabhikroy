@@ -16,6 +16,9 @@
 
 ## 🚀 Some Recent Projects
 
+- <img src="/icons/OnColorTheory.svg" height="18" align="center"> **[On Color Theory](https://github.com/drabhikroy/OnColorTheory)** &ndash; Workbench for exploring how color values behave and checking the ones you plan to use, with optional local ML.<br>
+  <code>Swift</code> <code>macOS</code> <code>Color Theory</code> <code>Machine Learning</code>
+
 - <img src="/icons/Rank&Folder-Dark.svg" height="18" align="center"> **[Rank & Folder](https://github.com/drabhikroy/rank-and-folder)** – Desktop application for saving different grouping and sorting rules for folders with optional local ML.<br>
 <code>Swift</code> <code>macOS</code> <code>Finder</code> <code>Machine Learning</code>
 
