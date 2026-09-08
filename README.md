@@ -1,6 +1,12 @@
 <h1 align="left">
   Hi 👋🏽, I'm Abhik Roy
-  <img src="/icons/tagline-exact.svg" height="26" align="absmiddle"/>
+  <picture>
+    <source media="(prefers-color-scheme: dark)"
+            srcset="https://raw.githubusercontent.com/drabhikroy/drabhikroy/main/icons/tagline-dark.svg">
+    <img src="https://raw.githubusercontent.com/drabhikroy/drabhikroy/main/icons/tagline-light.svg"
+         alt="Methodologist · Program Evaluator · R Enthusiast"
+         height="26" align="absmiddle">
+  </picture>
 </h1>
 
 <p>
