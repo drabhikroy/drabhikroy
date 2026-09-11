@@ -29,7 +29,7 @@
 <code>Swift</code> <code>macOS</code> <code>Finder</code> <code>Machine Learning</code>
 
 - <img src="/icons/chenoot-icon.svg" height="18" align="center"> **[Chenoot](https://github.com/drabhikroy/chenoot)** – Desktop application for creating survey instruments with local ML.<br>
-  <code>Electron</code> <code>macOS</code> <code>Survey Design</code> <code>Machine Learning</code>
+  <code>Electron</code> <code>macOS</code> <code>Windows</code> <code>Linux</code> <code>Survey Design</code> <code>Machine Learning</code>
   
 - <img src="/icons/daybreak-icon-dark.svg" height="18" align="center"> **[Daybreak](https://github.com/drabhikroy/daybreak)** &ndash; Platform for statistical analysis and automated reporting with optional local ML.<br>
   <code>R</code> <code>Shiny</code> <code>Statistical Analysis</code> <code>Machine Learning</code>
