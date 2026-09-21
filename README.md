@@ -22,6 +22,9 @@
 
 ## 🚀 Some Recent Projects
 
+- <img src="/icons/hyper-cards-bolt.svg" height="18" align="center"> **[Hyper Cards](https://github.com/drabhikroy/HyperCards)** &ndash; Hyper plugin grouping terminal commands and output into visual cards with copy, collapse, and history search.<br>
+  <code>JavaScript</code> <code>macOS</code> <code>Hyper</code> <code>Terminal</code>
+
 - <img src="/icons/OnColorTheory.svg" height="18" align="center"> **[On Color Theory](https://github.com/drabhikroy/OnColorTheory)** &ndash; Workbench for exploring how color values behave and checking the ones you plan to use, with optional local ML.<br>
   <code>Swift</code> <code>macOS</code> <code>Color Theory</code> <code>Machine Learning</code>
 
