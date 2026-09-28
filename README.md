@@ -14,7 +14,6 @@
 </p>
 
 <br>
-<br>
 
 ## 🔨 Projects
 
