@@ -56,7 +56,7 @@
 
 - <img src="/icons/visualizations-logo.svg" alt="" height="16" align="center"> **[Visualizations](https://github.com/drabhikroy/visualizations)** &ndash; Static and interactive data visualizations exploring communication approaches.
 
-- <img src="/icons/shiny-apps-logo.svg" alt="" height="16" align="center"> **[Shiny Apps](https://github.com/drabhikroy/shiny-apps)** &ndash; Public Shiny applications for exploring data analysis workflows.
+- <img src="/icons/shiny-apps-logo.svg" alt="" height="16" align="center"> **[R Shiny Apps](https://github.com/drabhikroy/shiny-apps)** &ndash; Public Shiny applications for exploring data analysis workflows.
 
 - <img src="/icons/terminal-logo.svg" alt="" height="16" align="center"> **[Random macOS CLI](https://github.com/drabhikroy/random-macos-cl)** &ndash; Useful macOS terminal commands, snippets, and small automation scripts.
 
