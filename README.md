@@ -20,34 +20,39 @@
 
 ---
 
-## 🚀 Some Recent Projects
+## 🚀 Recent Projects
 
-- <img src="/icons/hyper-cards-bolt.svg" height="18" align="center"> **[Hyper Cards](https://github.com/drabhikroy/HyperCards)** &ndash; Hyper plugin grouping terminal commands and output into visual cards with copy, collapse, and history search.<br>
+### <img src="/icons/shiny-hex.svg" alt="" height="22" align="center"> R Shiny Apps
+
+- <img src="/icons/daybreak-icon-dark.svg" alt="" height="18" align="center"> **[Daybreak](https://github.com/drabhikroy/daybreak)** &ndash; Platform for statistical analysis and automated reporting with optional local ML.<br>
+  <code>Statistical Analysis</code> <code>Automated Reporting</code> <code>Machine Learning</code>
+
+- <img src="/icons/causality-icon-dark.svg" alt="" height="18" align="center"> **[Causality](https://github.com/drabhikroy/causality)** &ndash; Workbench for quasi-experimental analysis and causal inference with optional local ML.<br>
+  <code>Causal Inference</code> <code>Quasi-Experimental Methods</code> <code>Machine Learning</code>
+
+- <img src="/icons/nonconformity-icon-dark.svg" alt="" height="18" align="center"> **[Nonconformity](https://github.com/drabhikroy/nonconformity)** &ndash; Dashboard for exploring operational time series and pattern discovery with optional local ML.<br>
+  <code>Time Series</code> <code>Pattern Discovery</code> <code>Machine Learning</code>
+
+- <img src="/icons/tessera-icon-dark.svg" alt="" height="18" align="center"> **[Tessera](https://github.com/drabhikroy/tessera)** &ndash; SNA dashboard providing plain-English insights with optional local ML.<br>
+  <code>Social Network Analysis</code> <code>Network Visualization</code> <code>Machine Learning</code>
+
+
+### 🖥️ Desktop Software
+
+- <img src="/icons/hyper-cards-bolt.svg" alt="" height="18" align="center"> **[Hyper Cards](https://github.com/drabhikroy/HyperCards)** &ndash; Hyper plugin grouping terminal commands and output into visual cards with copy, collapse, and history search.<br>
   <code>JavaScript</code> <code>macOS</code> <code>Hyper</code> <code>Terminal</code>
 
-- <img src="/icons/OnColorTheory.svg" height="18" align="center"> **[On Color Theory](https://github.com/drabhikroy/OnColorTheory)** &ndash; Workbench for exploring how color values behave and checking the ones you plan to use, with optional local ML.<br>
+- <img src="/icons/OnColorTheory.svg" alt="" height="18" align="center"> **[On Color Theory](https://github.com/drabhikroy/OnColorTheory)** &ndash; Workbench for exploring how color values behave and checking the ones you plan to use, with optional local ML.<br>
   <code>Swift</code> <code>macOS</code> <code>Color Theory</code> <code>Machine Learning</code>
 
-- <img src="/icons/Rank&Folder-Dark.svg" height="18" align="center"> **[Rank & Folder](https://github.com/drabhikroy/rank-and-folder)** – Desktop application for saving different grouping and sorting rules for folders with optional local ML.<br>
-<code>Swift</code> <code>macOS</code> <code>Finder</code> <code>Machine Learning</code>
+- <img src="/icons/Rank&Folder-Dark.svg" alt="" height="18" align="center"> **[Rank & Folder](https://github.com/drabhikroy/rank-and-folder)** &ndash; Desktop application for saving different grouping and sorting rules for folders with optional local ML.<br>
+  <code>Swift</code> <code>macOS</code> <code>Finder</code> <code>Machine Learning</code>
 
-- <img src="/icons/chenoot-icon.svg" height="18" align="center"> **[Chenoot](https://github.com/drabhikroy/chenoot)** – Desktop application for creating survey instruments with local ML.<br>
+- <img src="/icons/chenoot-icon.svg" alt="" height="18" align="center"> **[Chenoot](https://github.com/drabhikroy/chenoot)** &ndash; Desktop application for creating survey instruments with local ML.<br>
   <code>Electron</code> <code>macOS</code> <code>Windows</code> <code>Linux</code> <code>Survey Design</code> <code>Machine Learning</code>
-  
-- <img src="/icons/daybreak-icon-dark.svg" height="18" align="center"> **[Daybreak](https://github.com/drabhikroy/daybreak)** &ndash; Platform for statistical analysis and automated reporting with optional local ML.<br>
-  <code>R</code> <code>Shiny</code> <code>Statistical Analysis</code> <code>Machine Learning</code>
 
-- <img src="/icons/causality-icon-dark.svg" height="18" align="center"> **[Causality](https://github.com/drabhikroy/causality)** &ndash; Workbench for quasi-experimental analysis and causal inference with optional local ML.<br>
-  <code>R</code> <code>Shiny</code> <code>Causal</code> <code>Machine Learning</code>
-
-- <img src="/icons/nonconformity-icon-dark.svg" height="18" align="center"> **[Nonconformity](https://github.com/drabhikroy/nonconformity)** &ndash; Dashboard for exploring operational time series and pattern discovery with optional local ML.<br>
-  <code>R</code> <code>Shiny</code> <code>Time Series</code> <code>Machine Learning</code>
-
-- <img src="/icons/tessera-icon-dark.svg" height="18" align="center"> **[Tessera](https://github.com/drabhikroy/tessera)** &ndash; SNA dashboard providing plain-English insights with optional local ML.<br>
-  <code>R</code> <code>Shiny</code> <code>Social Network Analysis</code> <code>Machine Learning</code>
-
-- <img src="/icons/eigenframe-icon.svg" height="18" align="center"> **[Eigenframe](https://github.com/drabhikroy/Eigenframe)** &ndash; Desktop application for managing dynamic and static wallpapers across Spaces.<br>
-  <code>Swift</code>  <code>macOS</code> <code>Live Wallpapers</code> <code>Spaces</code>
+- <img src="/icons/eigenframe-icon.svg" alt="" height="18" align="center"> **[Eigenframe](https://github.com/drabhikroy/Eigenframe)** &ndash; Desktop application for managing dynamic and static wallpapers across Spaces.<br>
+  <code>Swift</code> <code>macOS</code> <code>Live Wallpapers</code> <code>Spaces</code>
 
 <!-- Acts as an invisible 10px spacer -->
 <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" height="3">
@@ -55,22 +60,16 @@
 
 ## 🧪 Older Projects & Experiments
 
-- <img src="/icons/visualizations-logo.svg" height="16" align="center"> **[Visualizations](https://github.com/drabhikroy/visualizations)** &ndash; Static and interactive data visualizations exploring communication approaches.<br>
-  <code>R</code> <code>JavaScript</code>
+- <img src="/icons/visualizations-logo.svg" alt="" height="16" align="center"> **[Visualizations](https://github.com/drabhikroy/visualizations)** &ndash; Static and interactive data visualizations exploring communication approaches.
 
-- <img src="/icons/shiny-apps-logo.svg" height="16" align="center"> **[Shiny Apps](https://github.com/drabhikroy/shiny-apps)** &ndash; Public Shiny applications for exploring data analysis workflows.<br>
-  <code>R</code> <code>Shiny</code>
+- <img src="/icons/shiny-apps-logo.svg" alt="" height="16" align="center"> **[Shiny Apps](https://github.com/drabhikroy/shiny-apps)** &ndash; Public Shiny applications for exploring data analysis workflows.
 
-- <img src="/icons/terminal-logo.svg" height="16" align="center"> **[Random macOS CLI](https://github.com/drabhikroy/random-macos-cl)** &ndash; Useful macOS terminal commands, snippets, and small automation scripts.<br>
-  <code>Shell</code> <code>Automation</code>
+- <img src="/icons/terminal-logo.svg" alt="" height="16" align="center"> **[Random macOS CLI](https://github.com/drabhikroy/random-macos-cl)** &ndash; Useful macOS terminal commands, snippets, and small automation scripts.
 
-- <img src="/icons/qualtrics-snippets-logo.svg" height="16" align="center"> **[Qualtrics Snippets](https://github.com/drabhikroy/qualtrics-snippets)** &ndash; Reusable snippets and utilities for streamlining Qualtrics workflows.<br>
-  <code>JavaScript</code>
+- <img src="/icons/qualtrics-snippets-logo.svg" alt="" height="16" align="center"> **[Qualtrics Snippets](https://github.com/drabhikroy/qualtrics-snippets)** &ndash; Reusable snippets and utilities for Qualtrics workflows
 
 <!-- Acts as an invisible 10px spacer -->
 <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" height="10">
-
-
 
 ---
 
