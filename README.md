@@ -45,7 +45,7 @@
   <code>Swift</code> <code>macOS</code> <code>Finder</code> <code>Machine Learning</code>
 
 - <img src="/icons/chenoot-icon.svg" alt="" height="18" align="center"> **[Chenoot](https://github.com/drabhikroy/chenoot)** &ndash; Desktop application for creating survey instruments with local ML.<br>
-  <code>Electron</code> <code>Cross-Platform</code> <code>Survey Design</code> <code>Machine Learning</code>
+  <code>Electron</code> <code>Cross Platform</code> <code>Survey Design</code> <code>Machine Learning</code>
 
 - <img src="/icons/eigenframe-icon.svg" alt="" height="18" align="center"> **[Eigenframe](https://github.com/drabhikroy/Eigenframe)** &ndash; Desktop application for managing dynamic and static wallpapers across Spaces.<br>
   <code>Swift</code> <code>macOS</code> <code>Live Wallpapers</code> <code>Spaces</code>
