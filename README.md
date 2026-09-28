@@ -10,32 +10,29 @@
 </h1>
 
 <p>
-  I conduct program evaluations, build data tools and visualizations, and write the occasional app out of spite.
+  I conduct program evaluations and write the occasional app out of spite.
 </p>
 
-<!-- Acts as an invisible 10px spacer -->
-<img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" height="10">
+<br>
+<br>
 
+## 🔨 Projects
 
-
----
-
-## 🚀 Recent Projects
-
-### <img src="/icons/shiny-hex.svg" alt="" height="22" align="center"> R Shiny Apps
+### <img src="/icons/shiny-hex.svg" alt="" height="24" align="center">&nbsp;&#8202;R Shiny Apps
 
 - <img src="/icons/daybreak-icon-dark.svg" alt="" height="18" align="center"> **[Daybreak](https://github.com/drabhikroy/daybreak)** &ndash; Platform for statistical analysis and automated reporting with optional local ML.<br>
-  <code>Statistical Analysis</code> <code>Automated Reporting</code> <code>Machine Learning</code>
+  <code>Statistical Analysis</code> <code>Automated Reporting</code> <code>Data Visualization</code> <code>Machine Learning</code>
 
 - <img src="/icons/causality-icon-dark.svg" alt="" height="18" align="center"> **[Causality](https://github.com/drabhikroy/causality)** &ndash; Workbench for quasi-experimental analysis and causal inference with optional local ML.<br>
-  <code>Causal Inference</code> <code>Quasi-Experimental Methods</code> <code>Machine Learning</code>
+  <code>Causal Inference</code> <code>Quasi-Experimental Methods</code> <code>Effect Estimation</code> <code>Machine Learning</code>
 
 - <img src="/icons/nonconformity-icon-dark.svg" alt="" height="18" align="center"> **[Nonconformity](https://github.com/drabhikroy/nonconformity)** &ndash; Dashboard for exploring operational time series and pattern discovery with optional local ML.<br>
-  <code>Time Series</code> <code>Pattern Discovery</code> <code>Machine Learning</code>
+  <code>Time Series</code> <code>Trend Analysis</code> <code>Pattern Discovery</code> <code>Machine Learning</code>
 
-- <img src="/icons/tessera-icon-dark.svg" alt="" height="18" align="center"> **[Tessera](https://github.com/drabhikroy/tessera)** &ndash; SNA dashboard providing plain-English insights with optional local ML.<br>
-  <code>Social Network Analysis</code> <code>Network Visualization</code> <code>Machine Learning</code>
+- <img src="/icons/tessera-icon-dark.svg" alt="" height="18" align="center"> **[Tessera](https://github.com/drabhikroy/tessera)** &ndash; Application for exploring and interpreting social network patterns with plain-English insights and optional local ML.<br>
+  <code>Social Network Analysis</code> <code>Community Detection</code> <code>Graph Visualization</code> <code>Machine Learning</code>
 
+<br>
 
 ### 🖥️ Desktop Software
 
@@ -49,16 +46,14 @@
   <code>Swift</code> <code>macOS</code> <code>Finder</code> <code>Machine Learning</code>
 
 - <img src="/icons/chenoot-icon.svg" alt="" height="18" align="center"> **[Chenoot](https://github.com/drabhikroy/chenoot)** &ndash; Desktop application for creating survey instruments with local ML.<br>
-  <code>Electron</code> <code>macOS</code> <code>Windows</code> <code>Linux</code> <code>Survey Design</code> <code>Machine Learning</code>
+  <code>Electron</code> <code>Cross-Platform</code> <code>Survey Design</code> <code>Machine Learning</code>
 
 - <img src="/icons/eigenframe-icon.svg" alt="" height="18" align="center"> **[Eigenframe](https://github.com/drabhikroy/Eigenframe)** &ndash; Desktop application for managing dynamic and static wallpapers across Spaces.<br>
   <code>Swift</code> <code>macOS</code> <code>Live Wallpapers</code> <code>Spaces</code>
 
-<!-- Acts as an invisible 10px spacer -->
-<img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" height="3">
+<br>
 
-
-## 🧪 Older Projects & Experiments
+### 🧪 Earlier Work
 
 - <img src="/icons/visualizations-logo.svg" alt="" height="16" align="center"> **[Visualizations](https://github.com/drabhikroy/visualizations)** &ndash; Static and interactive data visualizations exploring communication approaches.
 
@@ -66,66 +61,59 @@
 
 - <img src="/icons/terminal-logo.svg" alt="" height="16" align="center"> **[Random macOS CLI](https://github.com/drabhikroy/random-macos-cl)** &ndash; Useful macOS terminal commands, snippets, and small automation scripts.
 
-- <img src="/icons/qualtrics-snippets-logo.svg" alt="" height="16" align="center"> **[Qualtrics Snippets](https://github.com/drabhikroy/qualtrics-snippets)** &ndash; Reusable snippets and utilities for Qualtrics workflows
+- <img src="/icons/qualtrics-snippets-logo.svg" alt="" height="16" align="center"> **[Qualtrics Snippets](https://github.com/drabhikroy/qualtrics-snippets)** &ndash; Reusable snippets and utilities for Qualtrics workflows.
 
-<!-- Acts as an invisible 10px spacer -->
-<img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" height="10">
+<br>
+<br>
 
----
-
-## 🛠️ Languages & Tools
+## 🧰 Languages & Tools
 
 <p align="left">
-  <img src="/icons/R-logo.svg" alt="R" height="32"/>&nbsp;&nbsp;
-  <img src="/icons/HTML5-logo.svg" alt="HTML5" height="32"/>&nbsp;&nbsp;
-  <img src="/icons/CSS3-logo.svg" alt="CSS3" height="32"/>&nbsp;&nbsp;
-  <img src="/icons/JS-logo.svg" alt="JavaScript" height="32"/>&nbsp;&nbsp;
-  <img src="/icons/d3-logo.svg" alt="d3.js" height="32"/>&nbsp;&nbsp;
-  <img src="/icons/LaTeX_logo_white.svg" alt="LaTeX" height="32"/>&nbsp;&nbsp;
-  <img src="/icons/RStudio-logo.svg" alt="RStudio" height="32"/>&nbsp;&nbsp;
-  <img src="/icons/tableau-logo.svg" alt="Tableau" height="32"/>&nbsp;&nbsp;
-  <img src="/icons/Adobe-Photoshop-logo.svg" alt="Adobe Photoshop" height="32"/>&nbsp;&nbsp;
-  <img src="/icons/Hugo-logo.svg" alt="Hugo" height="32"/>&nbsp;&nbsp;
-  <img src="/icons/git-logo.svg" alt="Git" height="32"/>
+  <img src="/icons/R-logo.svg" alt="R" height="30"/>&nbsp;&nbsp;
+  <img src="/icons/HTML5-logo.svg" alt="HTML5" height="30"/>&nbsp;&nbsp;
+  <img src="/icons/CSS3-logo.svg" alt="CSS3" height="30"/>&nbsp;&nbsp;
+  <img src="/icons/JS-logo.svg" alt="JavaScript" height="30"/>&nbsp;&nbsp;
+  <img src="/icons/d3-logo.svg" alt="d3.js" height="30"/>&nbsp;&nbsp;
+  <img src="/icons/LaTeX_logo_white.svg" alt="LaTeX" height="30"/>&nbsp;&nbsp;
+  <img src="/icons/RStudio-logo.svg" alt="RStudio" height="30"/>&nbsp;&nbsp;
+  <img src="/icons/tableau-logo.svg" alt="Tableau" height="30"/>&nbsp;&nbsp;
+  <img src="/icons/Adobe-Photoshop-logo.svg" alt="Adobe Photoshop" height="30"/>&nbsp;&nbsp;
+  <img src="/icons/Hugo-logo.svg" alt="Hugo" height="30"/>&nbsp;&nbsp;
+  <img src="/icons/git-logo.svg" alt="Git" height="30"/>
 </p>
 
-<!-- Acts as an invisible 10px spacer -->
-<img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" height="10">
+<br>
+<br>
 
-
-
----
-
-## 🎓 Graduate Courses Taught 
+## 🎓 Graduate Courses Taught
 
 <br>
 
 <p align="left">
-  <img src="/img/edp611.png" alt="Measurement/Evaluation" width="150"/>&nbsp;&nbsp;
-  <img src="/img/edp612.png" alt="Intro to Research" width="150"/>&nbsp;&nbsp;
-  <img src="/img/edp613.png" alt="Statistical Methods I" width="150"/>&nbsp;&nbsp;
-  <img src="/img/edp617.png" alt="Program Evaluation" width="150"/>
-</p>
-<p align="left" style="margin-top: 10px;">
-  <img src="/img/edp618.png" alt="Mixing Research Methods" width="150"/>&nbsp;&nbsp;
-  <img src="/img/edp619.png" alt="Survey Research Methods" width="150"/>&nbsp;&nbsp;
-  <img src="/img/edp693e.png" alt="Data Visualization" width="150"/>&nbsp;&nbsp;
-  <img src="/img/edp693g.png" alt="Social Network Analysis" width="150"/>
+  <img src="/img/edp611.png" alt="EDP 611 — Measurement/Evaluation" width="140"/>&nbsp;&nbsp;
+  <img src="/img/edp612.png" alt="EDP 612 — Intro to Research" width="140"/>&nbsp;&nbsp;
+  <img src="/img/edp613.png" alt="EDP 613 — Statistical Methods I" width="140"/>&nbsp;&nbsp;
+  <img src="/img/edp617.png" alt="EDP 617 — Program Evaluation" width="140"/>
 </p>
 
-<!-- Acts as an invisible 10px spacer -->
-<img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" height="10">
+<br>
 
+<p align="left">
+  <img src="/img/edp618.png" alt="EDP 618 — Mixing Research Methods" width="140"/>&nbsp;&nbsp;
+  <img src="/img/edp619.png" alt="EDP 619 — Survey Research Methods" width="140"/>&nbsp;&nbsp;
+  <img src="/img/edp693e.png" alt="EDP 693E — Data Visualization" width="140"/>&nbsp;&nbsp;
+  <img src="/img/edp693g.png" alt="EDP 693G — Social Network Analysis" width="140"/>
+</p>
 
-
----
+<br>
+<br>
 
 ## 📬 Connect With Me
 
 <p align="left">
-  <a href="https://codepen.io/abhikrroy"><img src="/icons/codepen-logo.svg" height="36"/></a>&nbsp;&nbsp;&nbsp;
-  <a href="https://linkedin.com/in/abhikrroy"><img src="/icons/LinkedIn-logo.svg" height="36"/></a>&nbsp;&nbsp;&nbsp;
-  <a href="https://stackoverflow.com/users/abhikrroy"><img src="/icons/stack-overflow-logo.svg" height="36"/></a>
+  <a href="https://codepen.io/abhikrroy" title="CodePen"><img src="/icons/codepen-logo.svg" alt="CodePen" height="36"/></a>&nbsp;&nbsp;&nbsp;
+  <a href="https://linkedin.com/in/abhikrroy" title="LinkedIn"><img src="/icons/LinkedIn-logo.svg" alt="LinkedIn" height="36"/></a>&nbsp;&nbsp;&nbsp;
+  <a href="https://stackoverflow.com/users/abhikrroy" title="Stack Overflow"><img src="/icons/stack-overflow-logo.svg" alt="Stack Overflow" height="36"/></a>
 </p>
 
 <br>
