@@ -35,6 +35,9 @@
 
 ### 🖥️ Desktop Software
 
+- <img src="/icons/scrippy-icon.svg" alt="" height="18" align="center"> **[Scrippy](https://github.com/drabhikroy/scrippy)** &ndash; Finder Quick Action for converting images to any format your Mac can write.<br>
+  <code>Swift</code> <code>macOS</code> <code>Finder</code> <code>Image Conversion</code>
+
 - <img src="/icons/hyper-cards-bolt.svg" alt="" height="18" align="center"> **[Hyper Cards](https://github.com/drabhikroy/HyperCards)** &ndash; Hyper plugin grouping terminal commands and output into visual cards with copy, collapse, and history search.<br>
   <code>JavaScript</code> <code>macOS</code> <code>Hyper</code> <code>Terminal</code>
 
