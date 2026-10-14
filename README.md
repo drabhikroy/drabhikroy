@@ -35,11 +35,11 @@
 
 ### 🖥️ Desktop Software
 
-- <img src="/icons/scrippy-icon.svg" alt="" height="18" align="absmiddle"> **[Scrippy](https://github.com/drabhikroy/scrippy)** &ndash; Finder Quick Action for converting images to any format your Mac can write.<br>
-  <code>Swift</code> <code>macOS</code> <code>Finder</code> <code>Image Conversion</code>
-
 - <img src="/icons/the-brightening-icon.svg" alt="" height="18" align="absmiddle"> **[The Brightening](https://github.com/drabhikroy/the-brightening)** &ndash; Menu bar app that raises the brightness of a MacBook Pro XDR display above its usual limit.<br>
   <code>Swift</code> <code>macOS</code> <code>Menu Bar</code> <code>Display</code>
+
+- <img src="/icons/scrippy-icon.svg" alt="" height="18" align="absmiddle"> **[Scrippy](https://github.com/drabhikroy/scrippy)** &ndash; Finder Quick Action for converting images to any format your Mac can write.<br>
+  <code>Swift</code> <code>macOS</code> <code>Finder</code> <code>Image Conversion</code>
 
 - <img src="/icons/hyper-cards-bolt.svg" alt="" height="18" align="absmiddle"> **[Hyper Cards](https://github.com/drabhikroy/HyperCards)** &ndash; Hyper plugin grouping terminal commands and output into visual cards with copy, collapse, and history search.<br>
   <code>JavaScript</code> <code>macOS</code> <code>Hyper</code> <code>Terminal</code>
