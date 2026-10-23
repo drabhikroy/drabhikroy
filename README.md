@@ -35,6 +35,9 @@
 
 ### 🖥️ Desktop Software
 
+- <img src="/icons/goodr-icon.svg" alt="" height="18" align="absmiddle"> **[goodR](https://github.com/drabhikroy/goodR)** &ndash; IDE for writing and programming in R with optional local ML.<br>
+  <code>Tauri</code> <code>macOS</code> <code>R</code> <code>Machine Learning</code>
+  
 - <img src="/icons/the-brightening-icon.svg" alt="" height="18" align="absmiddle"> **[The Brightening](https://github.com/drabhikroy/the-brightening)** &ndash; Menu bar app that raises the brightness of a MacBook Pro XDR display above its usual limit.<br>
   <code>Swift</code> <code>macOS</code> <code>Menu Bar</code> <code>Display</code>
 
