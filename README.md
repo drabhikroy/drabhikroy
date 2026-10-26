@@ -129,3 +129,14 @@
 <p align="left">
   <img src="/img/run-r.png" alt="Run R" height="140"/>
 </p>
+
+<br>
+<br>
+
+<p align="center">
+  <img
+    src="./img/zelda-contributions.svg"
+    alt="The Legend of Commits - Animated NES Zelda-inspired GitHub contributions"
+    width="100%">
+</p>
+
