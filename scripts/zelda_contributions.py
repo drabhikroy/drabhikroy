@@ -650,6 +650,201 @@ svg.append(f"""
 """)
 
 
+# --------------------------------------------------
+# OVERWORLD UPGRADE
+# Terrain, projectiles, chests, introduction, finale
+# --------------------------------------------------
+
+# 1. Small terrain details.
+# Keep the original contribution colors visible.
+for col, week in enumerate(weeks):
+    for day in week["contributionDays"]:
+        row = day["weekday"]
+        level = day["contributionLevel"]
+        x = LEFT + col * STEP
+        y = TOP + row * STEP
+
+        if level == "NONE" and (col * 7 + row * 11) % 31 == 0:
+            # A small gray rock.
+            svg.append(f"""
+            <g class="pixel">
+              <rect x="{x+3}" y="{y+7}" width="7"
+                    height="4" fill="#626c63"/>
+              <rect x="{x+5}" y="{y+5}" width="4"
+                    height="3" fill="#a0a99a"/>
+              <rect x="{x+3}" y="{y+10}" width="7"
+                    height="2" fill="#343d37"/>
+            </g>
+            """)
+
+        elif (
+            level == "FIRST_QUARTILE"
+            and (col + 2 * row) % 9 == 0
+        ):
+            # Two blades of grass.
+            svg.append(f"""
+            <g class="pixel" fill="#80bd59">
+              <rect x="{x+3}" y="{y+7}"
+                    width="2" height="4"/>
+              <rect x="{x+8}" y="{y+5}"
+                    width="2" height="5"/>
+              <rect x="{x+2}" y="{y+9}"
+                    width="2" height="2"/>
+            </g>
+            """)
+
+
+# 2. Octorok projectiles.
+# Each enemy fires shortly before Link arrives.
+for row, col in enemy_locations:
+    t = visit_time(row, col)
+
+    start = t - 0.032
+    visible = t - 0.029
+    end = t - 0.004
+
+    x = LEFT + col * STEP + CELL / 2
+    y = TOP + row * STEP + CELL / 2
+
+    # Projectiles move toward Link's approach direction.
+    direction = 1 if row % 2 else -1
+    distance = direction * 29
+
+    svg.append(f"""
+    <g class="pixel" transform="translate({x},{y})">
+      <g opacity="0">
+        <animate
+          attributeName="opacity"
+          values="0;0;1;0;0"
+          keyTimes="0;{start:.6f};{visible:.6f};{end:.6f};1"
+          dur="{DURATION}s"
+          repeatCount="indefinite"/>
+
+        <animateTransform
+          attributeName="transform"
+          type="translate"
+          values="0 0;0 0;{distance} 0;{distance} 0"
+          keyTimes="0;{start:.6f};{end:.6f};1"
+          dur="{DURATION}s"
+          repeatCount="indefinite"/>
+
+        <rect x="-3" y="-2" width="6" height="4"
+              fill="#d6a45b"/>
+        <rect x="-1" y="-1" width="3" height="2"
+              fill="#ffe6a1"/>
+      </g>
+    </g>
+    """)
+
+
+# 3. Two treasure chests along Link's route.
+chest_locations = [
+    (2, WEEK_COUNT // 3),
+    (4, (WEEK_COUNT * 2) // 3),
+]
+
+for row, col in chest_locations:
+    t = visit_time(row, col)
+
+    x = LEFT + col * STEP + CELL / 2
+    y = TOP + row * STEP + CELL / 2
+
+    svg.append(f"""
+    <g class="pixel" transform="translate({x},{y})">
+
+      <!-- Closed chest -->
+      <g opacity="1">
+        <animate
+          attributeName="opacity"
+          values="1;0;0"
+          keyTimes="0;{t:.6f};1"
+          calcMode="discrete"
+          dur="{DURATION}s"
+          repeatCount="indefinite"/>
+
+        <rect x="-5" y="-4" width="10" height="9"
+              fill="#83512c"/>
+        <rect x="-5" y="-4" width="10" height="3"
+              fill="#d69a4e"/>
+        <rect x="-1" y="-3" width="2" height="6"
+              fill="#f2d16c"/>
+        <rect x="-4" y="3" width="8" height="2"
+              fill="#59351e"/>
+      </g>
+
+      <!-- Open chest -->
+      <g opacity="0">
+        <animate
+          attributeName="opacity"
+          values="0;1;1"
+          keyTimes="0;{t:.6f};1"
+          calcMode="discrete"
+          dur="{DURATION}s"
+          repeatCount="indefinite"/>
+
+        <rect x="-5" y="0" width="10" height="5"
+              fill="#83512c"/>
+        <rect x="-4" y="1" width="8" height="2"
+              fill="#f2d16c"/>
+        <rect x="-5" y="-6" width="10" height="3"
+              fill="#d69a4e"/>
+        <rect x="-4" y="-3" width="8" height="3"
+              fill="#342519"/>
+      </g>
+
+      <!-- Treasure sparkle -->
+      <g opacity="0">
+        <animate
+          attributeName="opacity"
+          values="0;0;1;0;0"
+          keyTimes="0;{t-0.003:.6f};{t:.6f};{t+0.015:.6f};1"
+          dur="{DURATION}s"
+          repeatCount="indefinite"/>
+
+        <path d="M 0 -12 V -5 M -4 -9 H 4"
+              fill="none"
+              stroke="#ffec85"
+              stroke-width="2"/>
+      </g>
+    </g>
+    """)
+
+
+# 4. Classic introductory message.
+intro_x = WIDTH / 2
+svg.append(f"""
+<text class="text"
+  x="{intro_x}" y="215"
+  font-size="12" text-anchor="middle"
+  opacity="1">
+  THE QUEST BEGINS
+  <animate
+    attributeName="opacity"
+    values="1;1;0;0"
+    keyTimes="0;0.025;0.035;1"
+    dur="{DURATION}s"
+    repeatCount="indefinite"/>
+</text>
+""")
+
+
+# 5. Victory message after completing the quest.
+svg.append(f"""
+<text class="text"
+  x="{intro_x}" y="215"
+  font-size="12" text-anchor="middle"
+  fill="#f7d567"
+  opacity="0">
+  QUEST COMPLETE!
+  <animate
+    attributeName="opacity"
+    values="0;0;1;1;0"
+    keyTimes="0;0.91;0.94;0.98;1"
+    dur="{DURATION}s"
+    repeatCount="indefinite"/>
+</text>
+""")
+
 # Triforce appears at the end of the animation.
 cx = WIDTH - 48
 
