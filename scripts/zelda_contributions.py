@@ -240,6 +240,102 @@ motion_path = "M " + " L ".join(
 )
 
 
+# Three NES-inspired Octorok encounters.
+# Each enemy disappears when the hero reaches its tile.
+
+enemy_locations = [
+    (1, len(weeks) // 4),
+    (3, len(weeks) // 2),
+    (5, 3 * len(weeks) // 4),
+]
+
+total_steps = 7 * len(weeks) - 1
+
+for row, col in enemy_locations:
+    # The hero travels in alternating directions.
+    position = (
+        row * len(weeks)
+        + (col if row % 2 == 0
+           else len(weeks) - 1 - col)
+    )
+
+    hit_time = position / total_steps
+
+    x = LEFT + col * STEP + CELL / 2
+    y = TOP + row * STEP + CELL / 2
+
+    svg.append(f"""
+    <g class="pixel" transform="translate({x},{y})">
+
+      <!-- Red Octorok-style enemy -->
+      <g opacity="1">
+        <animate
+          attributeName="opacity"
+          values="1;0;0;1"
+          keyTimes="0;{hit_time:.6f};0.999;1"
+          calcMode="discrete"
+          dur="95s"
+          repeatCount="indefinite"/>
+
+        <g>
+          <animateTransform
+            attributeName="transform"
+            type="translate"
+            values="0 0;0 -1;0 0"
+            dur="0.65s"
+            repeatCount="indefinite"/>
+
+          <!-- Body and head -->
+          <rect x="-3" y="-6" width="6" height="3"
+                fill="#a73530"/>
+          <rect x="-5" y="-4" width="10" height="7"
+                fill="#ca5040"/>
+          <rect x="-6" y="-1" width="12" height="3"
+                fill="#e36b51"/>
+
+          <!-- Eyes -->
+          <rect x="-3" y="-2" width="2" height="2"
+                fill="#ffffff"/>
+          <rect x="1" y="-2" width="2" height="2"
+                fill="#ffffff"/>
+          <rect x="-2" y="-1" width="1" height="1"
+                fill="#17181a"/>
+          <rect x="2" y="-1" width="1" height="1"
+                fill="#17181a"/>
+
+          <!-- Snout -->
+          <rect x="-2" y="2" width="4" height="3"
+                fill="#8b2928"/>
+
+          <!-- Feet -->
+          <rect x="-5" y="5" width="3" height="2"
+                fill="#a73530"/>
+          <rect x="2" y="5" width="3" height="2"
+                fill="#a73530"/>
+        </g>
+      </g>
+
+      <!-- Golden impact effect -->
+      <g opacity="0">
+        <animate
+          attributeName="opacity"
+          values="0;0;1;0;0"
+          keyTimes="0;{hit_time-0.002:.6f};{hit_time:.6f};{hit_time+0.012:.6f};1"
+          dur="95s"
+          repeatCount="indefinite"/>
+
+        <rect x="-1" y="-8" width="2" height="16"
+              fill="#ffe58b"/>
+        <rect x="-8" y="-1" width="16" height="2"
+              fill="#ffe58b"/>
+        <rect x="-5" y="-5" width="2" height="2"
+              fill="#fff2c2"/>
+        <rect x="3" y="3" width="2" height="2"
+              fill="#fff2c2"/>
+      </g>
+    </g>
+    """)
+
 # NES-style adventurer with walking and directional movement.
 
 # Calculate when the hero reaches each new row.
