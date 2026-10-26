@@ -26,7 +26,7 @@
   THE LEGEND OF COMMITS
 </text>
 <text class="text" x="22" y="44" font-size="10">
-  @drabhikroy | 322 CONTRIBUTIONS
+  @drabhikroy | 323 CONTRIBUTIONS
 </text>
 
 
@@ -3620,7 +3620,7 @@
           x="809" y="107"
           width="13" height="13"
           fill="#4c8242">
-          <title>2026-10-26: 8 contributions</title>
+          <title>2026-10-26: 9 contributions</title>
         </rect>
         
 
@@ -4245,6 +4245,338 @@
   <rect x="822" y="217"
     width="3" height="3" fill="#fff2a5"/>
 </g>
+
+
+            <g class="pixel">
+              <rect x="32" y="99" width="7"
+                    height="4" fill="#626c63"/>
+              <rect x="34" y="97" width="4"
+                    height="3" fill="#a0a99a"/>
+              <rect x="32" y="102" width="7"
+                    height="2" fill="#343d37"/>
+            </g>
+            
+
+            <g class="pixel">
+              <rect x="47" y="174" width="7"
+                    height="4" fill="#626c63"/>
+              <rect x="49" y="172" width="4"
+                    height="3" fill="#a0a99a"/>
+              <rect x="47" y="177" width="7"
+                    height="2" fill="#343d37"/>
+            </g>
+            
+
+            <g class="pixel">
+              <rect x="137" y="159" width="7"
+                    height="4" fill="#626c63"/>
+              <rect x="139" y="157" width="4"
+                    height="3" fill="#a0a99a"/>
+              <rect x="137" y="162" width="7"
+                    height="2" fill="#343d37"/>
+            </g>
+            
+
+            <g class="pixel">
+              <rect x="227" y="144" width="7"
+                    height="4" fill="#626c63"/>
+              <rect x="229" y="142" width="4"
+                    height="3" fill="#a0a99a"/>
+              <rect x="227" y="147" width="7"
+                    height="2" fill="#343d37"/>
+            </g>
+            
+
+            <g class="pixel">
+              <rect x="317" y="129" width="7"
+                    height="4" fill="#626c63"/>
+              <rect x="319" y="127" width="4"
+                    height="3" fill="#a0a99a"/>
+              <rect x="317" y="132" width="7"
+                    height="2" fill="#343d37"/>
+            </g>
+            
+
+            <g class="pixel">
+              <rect x="407" y="114" width="7"
+                    height="4" fill="#626c63"/>
+              <rect x="409" y="112" width="4"
+                    height="3" fill="#a0a99a"/>
+              <rect x="407" y="117" width="7"
+                    height="2" fill="#343d37"/>
+            </g>
+            
+
+            <g class="pixel">
+              <rect x="422" y="189" width="7"
+                    height="4" fill="#626c63"/>
+              <rect x="424" y="187" width="4"
+                    height="3" fill="#a0a99a"/>
+              <rect x="422" y="192" width="7"
+                    height="2" fill="#343d37"/>
+            </g>
+            
+
+            <g class="pixel">
+              <rect x="497" y="99" width="7"
+                    height="4" fill="#626c63"/>
+              <rect x="499" y="97" width="4"
+                    height="3" fill="#a0a99a"/>
+              <rect x="497" y="102" width="7"
+                    height="2" fill="#343d37"/>
+            </g>
+            
+
+            <g class="pixel">
+              <rect x="512" y="174" width="7"
+                    height="4" fill="#626c63"/>
+              <rect x="514" y="172" width="4"
+                    height="3" fill="#a0a99a"/>
+              <rect x="512" y="177" width="7"
+                    height="2" fill="#343d37"/>
+            </g>
+            
+
+            <g class="pixel">
+              <rect x="692" y="144" width="7"
+                    height="4" fill="#626c63"/>
+              <rect x="694" y="142" width="4"
+                    height="3" fill="#a0a99a"/>
+              <rect x="692" y="147" width="7"
+                    height="2" fill="#343d37"/>
+            </g>
+            
+
+            <g class="pixel" fill="#80bd59">
+              <rect x="782" y="129"
+                    width="2" height="4"/>
+              <rect x="787" y="127"
+                    width="2" height="5"/>
+              <rect x="781" y="131"
+                    width="2" height="2"/>
+            </g>
+            
+
+    <g class="pixel" transform="translate(230.5,113.5)">
+      <g opacity="0">
+        <animate
+          attributeName="opacity"
+          values="0;0;1;0;0"
+          keyTimes="0;0.216649;0.219649;0.244649;1"
+          dur="95s"
+          repeatCount="indefinite"/>
+
+        <animateTransform
+          attributeName="transform"
+          type="translate"
+          values="0 0;0 0;29 0;29 0"
+          keyTimes="0;0.216649;0.244649;1"
+          dur="95s"
+          repeatCount="indefinite"/>
+
+        <rect x="-3" y="-2" width="6" height="4"
+              fill="#d6a45b"/>
+        <rect x="-1" y="-1" width="3" height="2"
+              fill="#ffe6a1"/>
+      </g>
+    </g>
+    
+
+    <g class="pixel" transform="translate(425.5,143.5)">
+      <g opacity="0">
+        <animate
+          attributeName="opacity"
+          values="0;0;1;0;0"
+          keyTimes="0;0.468000;0.471000;0.496000;1"
+          dur="95s"
+          repeatCount="indefinite"/>
+
+        <animateTransform
+          attributeName="transform"
+          type="translate"
+          values="0 0;0 0;29 0;29 0"
+          keyTimes="0;0.468000;0.496000;1"
+          dur="95s"
+          repeatCount="indefinite"/>
+
+        <rect x="-3" y="-2" width="6" height="4"
+              fill="#d6a45b"/>
+        <rect x="-1" y="-1" width="3" height="2"
+              fill="#ffe6a1"/>
+      </g>
+    </g>
+    
+
+    <g class="pixel" transform="translate(620.5,173.5)">
+      <g opacity="0">
+        <animate
+          attributeName="opacity"
+          values="0;0;1;0;0"
+          keyTimes="0;0.719351;0.722351;0.747351;1"
+          dur="95s"
+          repeatCount="indefinite"/>
+
+        <animateTransform
+          attributeName="transform"
+          type="translate"
+          values="0 0;0 0;29 0;29 0"
+          keyTimes="0;0.719351;0.747351;1"
+          dur="95s"
+          repeatCount="indefinite"/>
+
+        <rect x="-3" y="-2" width="6" height="4"
+              fill="#d6a45b"/>
+        <rect x="-1" y="-1" width="3" height="2"
+              fill="#ffe6a1"/>
+      </g>
+    </g>
+    
+
+    <g class="pixel" transform="translate(290.5,128.5)">
+
+      <!-- Closed chest -->
+      <g opacity="1">
+        <animate
+          attributeName="opacity"
+          values="1;0;0"
+          keyTimes="0;0.332432;1"
+          calcMode="discrete"
+          dur="95s"
+          repeatCount="indefinite"/>
+
+        <rect x="-5" y="-4" width="10" height="9"
+              fill="#83512c"/>
+        <rect x="-5" y="-4" width="10" height="3"
+              fill="#d69a4e"/>
+        <rect x="-1" y="-3" width="2" height="6"
+              fill="#f2d16c"/>
+        <rect x="-4" y="3" width="8" height="2"
+              fill="#59351e"/>
+      </g>
+
+      <!-- Open chest -->
+      <g opacity="0">
+        <animate
+          attributeName="opacity"
+          values="0;1;1"
+          keyTimes="0;0.332432;1"
+          calcMode="discrete"
+          dur="95s"
+          repeatCount="indefinite"/>
+
+        <rect x="-5" y="0" width="10" height="5"
+              fill="#83512c"/>
+        <rect x="-4" y="1" width="8" height="2"
+              fill="#f2d16c"/>
+        <rect x="-5" y="-6" width="10" height="3"
+              fill="#d69a4e"/>
+        <rect x="-4" y="-3" width="8" height="3"
+              fill="#342519"/>
+      </g>
+
+      <!-- Treasure sparkle -->
+      <g opacity="0">
+        <animate
+          attributeName="opacity"
+          values="0;0;1;0;0"
+          keyTimes="0;0.329432;0.332432;0.347432;1"
+          dur="95s"
+          repeatCount="indefinite"/>
+
+        <path d="M 0 -12 V -5 M -4 -9 H 4"
+              fill="none"
+              stroke="#ffec85"
+              stroke-width="2"/>
+      </g>
+    </g>
+    
+
+    <g class="pixel" transform="translate(560.5,158.5)">
+
+      <!-- Closed chest -->
+      <g opacity="1">
+        <animate
+          attributeName="opacity"
+          values="1;0;0"
+          keyTimes="0;0.667568;1"
+          calcMode="discrete"
+          dur="95s"
+          repeatCount="indefinite"/>
+
+        <rect x="-5" y="-4" width="10" height="9"
+              fill="#83512c"/>
+        <rect x="-5" y="-4" width="10" height="3"
+              fill="#d69a4e"/>
+        <rect x="-1" y="-3" width="2" height="6"
+              fill="#f2d16c"/>
+        <rect x="-4" y="3" width="8" height="2"
+              fill="#59351e"/>
+      </g>
+
+      <!-- Open chest -->
+      <g opacity="0">
+        <animate
+          attributeName="opacity"
+          values="0;1;1"
+          keyTimes="0;0.667568;1"
+          calcMode="discrete"
+          dur="95s"
+          repeatCount="indefinite"/>
+
+        <rect x="-5" y="0" width="10" height="5"
+              fill="#83512c"/>
+        <rect x="-4" y="1" width="8" height="2"
+              fill="#f2d16c"/>
+        <rect x="-5" y="-6" width="10" height="3"
+              fill="#d69a4e"/>
+        <rect x="-4" y="-3" width="8" height="3"
+              fill="#342519"/>
+      </g>
+
+      <!-- Treasure sparkle -->
+      <g opacity="0">
+        <animate
+          attributeName="opacity"
+          values="0;0;1;0;0"
+          keyTimes="0;0.664568;0.667568;0.682568;1"
+          dur="95s"
+          repeatCount="indefinite"/>
+
+        <path d="M 0 -12 V -5 M -4 -9 H 4"
+              fill="none"
+              stroke="#ffec85"
+              stroke-width="2"/>
+      </g>
+    </g>
+    
+
+<text class="text"
+  x="425.5" y="215"
+  font-size="12" text-anchor="middle"
+  opacity="1">
+  THE QUEST BEGINS
+  <animate
+    attributeName="opacity"
+    values="1;1;0;0"
+    keyTimes="0;0.025;0.035;1"
+    dur="95s"
+    repeatCount="indefinite"/>
+</text>
+
+
+<text class="text"
+  x="425.5" y="215"
+  font-size="12" text-anchor="middle"
+  fill="#f7d567"
+  opacity="0">
+  QUEST COMPLETE!
+  <animate
+    attributeName="opacity"
+    values="0;0;1;1;0"
+    keyTimes="0;0.91;0.94;0.98;1"
+    dur="95s"
+    repeatCount="indefinite"/>
+</text>
 
 
 <g opacity="0">
