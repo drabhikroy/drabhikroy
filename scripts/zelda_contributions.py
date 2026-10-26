@@ -471,6 +471,185 @@ svg.append(f"""
 """)
 
 
+# --------------------------------------------------
+# QUEST UPGRADE: Combat, pickups, HUD and finale
+# --------------------------------------------------
+
+DURATION = 95
+WEEK_COUNT = len(weeks)
+TOTAL_VISITS = 7 * WEEK_COUNT - 1
+
+
+def visit_time(row, col):
+    """Fraction of the animation when Link visits a tile."""
+    position = (
+        row * WEEK_COUNT
+        + (col if row % 2 == 0 else WEEK_COUNT - 1 - col)
+    )
+    return position / TOTAL_VISITS
+
+
+# 1. NES-style exploration progress bar.
+bar_x = LEFT + 78
+bar_y = 61
+bar_width = WIDTH - LEFT - bar_x
+
+svg.append(f"""
+<text class="text" x="{LEFT}" y="67" font-size="9">
+  QUEST
+</text>
+<rect class="pixel" x="{bar_x}" y="{bar_y}"
+  width="{bar_width}" height="7" fill="#394133"/>
+<rect class="pixel" x="{bar_x}" y="{bar_y}"
+  width="0" height="7" fill="#d7b553">
+  <animate attributeName="width"
+    from="0" to="{bar_width}"
+    dur="{DURATION}s" repeatCount="indefinite"/>
+</rect>
+""")
+
+# 2. Sword slashes synchronized with Octorok encounters.
+enemy_times = []
+
+for row, col in enemy_locations:
+    t = visit_time(row, col)
+    enemy_times.append(t)
+
+    x = LEFT + col * STEP + CELL / 2
+    y = TOP + row * STEP + CELL / 2
+
+    start = max(0, t - 0.008)
+    finish = min(0.999, t + 0.012)
+
+    svg.append(f"""
+    <g class="pixel" transform="translate({x},{y})">
+      <g opacity="0">
+        <animate attributeName="opacity"
+          values="0;0;1;0;0"
+          keyTimes="0;{start:.6f};{t:.6f};{finish:.6f};1"
+          dur="{DURATION}s"
+          repeatCount="indefinite"/>
+
+        <g>
+          <animateTransform
+            attributeName="transform"
+            type="rotate"
+            values="-40;-40;40;40;-40"
+            keyTimes="0;{start:.6f};{t:.6f};{finish:.6f};1"
+            dur="{DURATION}s"
+            repeatCount="indefinite"/>
+
+          <path d="M -8 5 L -3 -5 L 6 -8"
+            fill="none" stroke="#fff2b1"
+            stroke-width="3"
+            stroke-linecap="square"/>
+          <path d="M -6 7 L 0 8"
+            fill="none" stroke="#e4b94d"
+            stroke-width="2"/>
+        </g>
+      </g>
+    </g>
+    """)
+
+# 3. Enemy counter in the top status bar.
+enemy_times.sort()
+enemy_count = len(enemy_times)
+
+for defeated in range(enemy_count + 1):
+    if defeated == 0:
+        values = "1;0;0"
+        times = f"0;{enemy_times[0]:.6f};1"
+    elif defeated == enemy_count:
+        values = "0;1;1"
+        times = f"0;{enemy_times[-1]:.6f};1"
+    else:
+        values = "0;1;0;0"
+        times = (
+            f"0;{enemy_times[defeated-1]:.6f};"
+            f"{enemy_times[defeated]:.6f};1"
+        )
+
+    svg.append(f"""
+    <text class="text" x="{WIDTH-235}" y="43"
+      font-size="10" opacity="0">
+      FOES {defeated}/{enemy_count}
+      <animate attributeName="opacity"
+        values="{values}"
+        keyTimes="{times}"
+        calcMode="discrete"
+        dur="{DURATION}s"
+        repeatCount="indefinite"/>
+    </text>
+    """)
+
+# 4. Sparkles when rupees are collected.
+for col, week in enumerate(weeks):
+    for day in week["contributionDays"]:
+        if day["contributionLevel"] not in (
+            "THIRD_QUARTILE", "FOURTH_QUARTILE"
+        ):
+            continue
+
+        row = day["weekday"]
+        t = visit_time(row, col)
+
+        # Skip the very beginning and end of the loop.
+        if not 0.004 < t < 0.99:
+            continue
+
+        x = LEFT + col * STEP + CELL / 2
+        y = TOP + row * STEP + CELL / 2
+
+        start = t - 0.003
+        finish = t + 0.008
+
+        svg.append(f"""
+        <g class="pixel" transform="translate({x},{y})"
+          opacity="0">
+          <animate attributeName="opacity"
+            values="0;0;1;0;0"
+            keyTimes="0;{start:.6f};{t:.6f};{finish:.6f};1"
+            dur="{DURATION}s"
+            repeatCount="indefinite"/>
+
+          <rect x="-1" y="-6" width="2" height="4"
+            fill="#ffeb83"/>
+          <rect x="-1" y="2" width="2" height="4"
+            fill="#ffeb83"/>
+          <rect x="-6" y="-1" width="4" height="2"
+            fill="#ffeb83"/>
+          <rect x="2" y="-1" width="4" height="2"
+            fill="#ffeb83"/>
+        </g>
+        """)
+
+# 5. Golden Triforce finale sparkles.
+finale_x = WIDTH - 48
+
+svg.append(f"""
+<g class="pixel" opacity="0">
+  <animate attributeName="opacity"
+    values="0;0;1;0;0"
+    keyTimes="0;0.90;0.94;0.985;1"
+    dur="{DURATION}s"
+    repeatCount="indefinite"/>
+
+  <rect x="{finale_x-25}" y="202"
+    width="4" height="4" fill="#fff2a5"/>
+  <rect x="{finale_x+21}" y="202"
+    width="4" height="4" fill="#fff2a5"/>
+  <rect x="{finale_x-17}" y="192"
+    width="3" height="3" fill="#efc75c"/>
+  <rect x="{finale_x+14}" y="192"
+    width="3" height="3" fill="#efc75c"/>
+  <rect x="{finale_x-22}" y="217"
+    width="3" height="3" fill="#fff2a5"/>
+  <rect x="{finale_x+19}" y="217"
+    width="3" height="3" fill="#fff2a5"/>
+</g>
+""")
+
+
 # Triforce appears at the end of the animation.
 cx = WIDTH - 48
 
