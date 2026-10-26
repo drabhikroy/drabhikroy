@@ -152,18 +152,62 @@ for col, week in enumerate(weeks):
         </rect>
         """)
 
-        # Golden rupees on highly active days.
+
+        # NES-style bushes for moderately active days.
+        if level == "SECOND_QUARTILE":
+            svg.append(f"""
+            <g class="pixel">
+              <rect x="{x+3}" y="{y+5}" width="8"
+                    height="6" fill="#153b20"/>
+              <rect x="{x+4}" y="{y+3}" width="5"
+                    height="6" fill="#389a42"/>
+              <rect x="{x+2}" y="{y+6}" width="4"
+                    height="3" fill="#66bd4f"/>
+              <rect x="{x+6}" y="{y+4}" width="4"
+                    height="3" fill="#75ce58"/>
+              <rect x="{x+3}" y="{y+10}" width="8"
+                    height="2" fill="#102c19"/>
+            </g>
+            """)
+
+        # Collectible rupees for high-activity days.
         if level in ("THIRD_QUARTILE", "FOURTH_QUARTILE"):
             cx = x + CELL / 2
             cy = y + CELL / 2
 
+            # Match the adventurer's zigzag route.
+            position = (
+                row * len(weeks)
+                + (col if row % 2 == 0
+                   else len(weeks) - 1 - col)
+            )
+
+            total_positions = len(weeks) * 7
+            collect_at = min(
+                0.995,
+                max(0.001, position / (total_positions - 1))
+            )
+
+            rupee_color = (
+                "#f5cf4d" if level == "FOURTH_QUARTILE"
+                else "#59bbef"
+            )
+
             svg.append(f"""
             <polygon class="pixel"
-              points="{cx},{cy-4}
+              points="{cx},{cy-5}
                       {cx+3},{cy}
-                      {cx},{cy+4}
+                      {cx},{cy+5}
                       {cx-3},{cy}"
-              fill="#efd05b"/>
+              fill="{rupee_color}">
+              <animate
+                attributeName="opacity"
+                values="1;0;0;1"
+                keyTimes="0;{collect_at:.6f};0.999;1"
+                calcMode="discrete"
+                dur="95s"
+                repeatCount="indefinite"/>
+            </polygon>
             """)
 
         # Calendar month labels.
