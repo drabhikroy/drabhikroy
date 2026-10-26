@@ -239,39 +239,141 @@ motion_path = "M " + " L ".join(
     f"{x:g} {y:g}" for x, y in route
 )
 
-# Original miniature adventurer with NES-style colors.
+
+# NES-style adventurer with walking and directional movement.
+
+# Calculate when the hero reaches each new row.
+horizontal = (len(weeks) - 1) * STEP
+total_distance = 7 * horizontal + 6 * STEP
+
+turn_times = [
+    row * (horizontal + STEP) / total_distance
+    for row in range(7)
+]
+turn_times.append(1.0)
+
+flip_times = ";".join(
+    f"{t:.6f}" for t in turn_times
+)
+
+flip_values = ";".join(
+    "1 1" if row % 2 == 0 else "-1 1"
+    for row in range(7)
+) + ";1 1"
+
 svg.append(f"""
-<g class="pixel" id="hero">
-  <!-- Green cap -->
-  <rect x="-4" y="-8" width="8" height="3" fill="#5baa51"/>
-  <rect x="-5" y="-5" width="10" height="2" fill="#317c35"/>
+<g id="hero" class="pixel">
 
-  <!-- Face -->
-  <rect x="-3" y="-3" width="6" height="5" fill="#efbd84"/>
-  <rect x="1" y="-2" width="1" height="1" fill="#171b19"/>
+  <!-- Face left or right depending on travel direction -->
+  <g>
+    <animateTransform
+      attributeName="transform"
+      type="scale"
+      values="{flip_values}"
+      keyTimes="{flip_times}"
+      calcMode="discrete"
+      dur="95s"
+      repeatCount="indefinite"/>
 
-  <!-- Green tunic -->
-  <rect x="-4" y="2" width="8" height="5" fill="#438f46"/>
+    <!-- Walking bounce -->
+    <g>
+      <animateTransform
+        attributeName="transform"
+        type="translate"
+        values="0 0;0 -1;0 0;0 1;0 0"
+        dur="0.48s"
+        repeatCount="indefinite"/>
 
-  <!-- Shield -->
-  <rect x="-6" y="2" width="3" height="5" fill="#bd8743"/>
-  <rect x="-5" y="3" width="1" height="3" fill="#e8d78b"/>
+      <!-- Green pointed cap -->
+      <rect x="-3" y="-10" width="5" height="2"
+            fill="#296b35"/>
+      <rect x="-5" y="-8" width="9" height="3"
+            fill="#4cac52"/>
+      <rect x="-6" y="-5" width="11" height="2"
+            fill="#276d39"/>
+      <rect x="-4" y="-7" width="5" height="2"
+            fill="#85cf65"/>
 
-  <!-- Sword -->
-  <rect x="5" y="-3" width="2" height="8" fill="#d9e4ea"/>
-  <rect x="3" y="3" width="6" height="2" fill="#ae8551"/>
+      <!-- Hair and face -->
+      <rect x="-5" y="-3" width="9" height="5"
+            fill="#a56b39"/>
+      <rect x="-3" y="-3" width="8" height="5"
+            fill="#f0bd83"/>
+      <rect x="3" y="-1" width="2" height="2"
+            fill="#15191b"/>
+      <rect x="-3" y="1" width="6" height="1"
+            fill="#c68b5e"/>
 
-  <!-- Boots -->
-  <rect x="-4" y="7" width="3" height="3" fill="#83583b"/>
-  <rect x="1" y="7" width="3" height="3" fill="#83583b"/>
+      <!-- Green tunic -->
+      <rect x="-5" y="2" width="10" height="6"
+            fill="#338c44"/>
+      <rect x="-3" y="2" width="5" height="4"
+            fill="#67bd57"/>
+      <rect x="-5" y="6" width="10" height="2"
+            fill="#245d36"/>
 
+      <!-- Belt and buckle -->
+      <rect x="-5" y="5" width="10" height="2"
+            fill="#83532c"/>
+      <rect x="-1" y="5" width="2" height="2"
+            fill="#f1d16c"/>
+
+      <!-- Left arm and shield -->
+      <rect x="-7" y="2" width="3" height="5"
+            fill="#e5ac75"/>
+      <rect x="-8" y="3" width="4" height="6"
+            fill="#9a6532"/>
+      <rect x="-7" y="4" width="2" height="4"
+            fill="#d6bc70"/>
+      <rect x="-7" y="5" width="2" height="2"
+            fill="#d85c48"/>
+
+      <!-- Right arm -->
+      <rect x="5" y="2" width="3" height="5"
+            fill="#eab57b"/>
+
+      <!-- Sword blade, guard and grip -->
+      <rect x="8" y="-7" width="2" height="10"
+            fill="#dceaf0"/>
+      <rect x="9" y="-7" width="1" height="8"
+            fill="#ffffff"/>
+      <rect x="6" y="2" width="6" height="2"
+            fill="#f0ca63"/>
+      <rect x="8" y="4" width="2" height="4"
+            fill="#83532c"/>
+
+      <!-- Alternating walking legs -->
+      <rect x="-5" y="8" width="4" height="3"
+            fill="#8a593b">
+        <animate
+          attributeName="y"
+          values="8;6;8;9;8"
+          dur="0.48s"
+          repeatCount="indefinite"/>
+      </rect>
+
+      <rect x="1" y="8" width="4" height="3"
+            fill="#8a593b">
+        <animate
+          attributeName="y"
+          values="8;9;8;6;8"
+          dur="0.48s"
+          repeatCount="indefinite"/>
+      </rect>
+
+    </g>
+  </g>
+
+  <!-- Follow the original contribution calendar route -->
   <animateMotion
     path="{motion_path}"
     dur="95s"
     calcMode="linear"
     repeatCount="indefinite"/>
+
 </g>
 """)
+
 
 # Triforce appears at the end of the animation.
 cx = WIDTH - 48
