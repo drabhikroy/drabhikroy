@@ -26,7 +26,7 @@ jobs:
       - name: Generate Zelda animation
         env:
           GH_TOKEN: ${{ github.token }}
-        run: python scripts/zelda_contributions.py
+        run: python scripts/zelda_contributions.py --require-scenery --asset-dir assets/nes-original
 
       - name: Commit updated animation
         run: |
