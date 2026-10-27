@@ -892,7 +892,11 @@ def make_map(calendar):
     for cell, kind in enemy_positions:
         obstacles[cell] = kind
 
-    start, finish = (3,0), (3,cols-1)
+    start = (3,0)
+    finish = max(
+        (cell for cell in days if cell not in obstacles),
+        key=lambda cell: (cell[1], cell[0])
+    )
     # Chronological encounter order, interleaved with ordinary waypoints.
     objectives = []
     for c in range(6, cols-1, 6):
@@ -1816,7 +1820,10 @@ def generate(calendar, sprite_assets):
     # Triforce is anchored in the *last visited contribution cell*.
     # It appears just before Link arrives and disappears on collection.
     # This is a symbolic overworld finale (NES fragments were in dungeons).
-    finish_cell=(3,cols-1)
+    finish_cell = max(
+        (cell for cell in days if cell not in obstacles),
+        key=lambda cell: (cell[1], cell[0])
+    )
     if finish_cell not in days or finish_cell in obstacles:
         raise RuntimeError('Triforce goal must be an open contribution cell')
     finish_time=next(t for t,cell,state in timeline['frames'] if cell==finish_cell)
