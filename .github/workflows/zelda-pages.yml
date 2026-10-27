@@ -1,0 +1,57 @@
+name: Zelda Interactive Viewer
+
+on:
+  workflow_dispatch:
+  workflow_run:
+    workflows:
+      - Zelda Contributions
+    types:
+      - completed
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: zelda-interactive-pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    if: ${{ github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success' }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out published profile
+        uses: actions/checkout@v7
+        with:
+          ref: main
+
+      - name: Prepare interactive website
+        run: |
+          test -s img/zelda-contributions.svg
+          test -s zelda-pages/index.html
+          mkdir -p _site
+          cp zelda-pages/index.html _site/index.html
+          cp img/zelda-contributions.svg _site/zelda-contributions.svg
+          touch _site/.nojekyll
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload website
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    if: ${{ github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success' }}
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy interactive website
+        id: deployment
+        uses: actions/deploy-pages@v4

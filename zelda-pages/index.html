@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <title>The Legend of Commits | Interactive Contributions</title>
+  <style>
+    :root { color-scheme: dark; background: #10151b; color: #f2e5b5; font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+    * { box-sizing: border-box; }
+    body { margin: 0; min-height: 100vh; padding: clamp(16px, 3vw, 40px); }
+    main { width: min(1100px, 100%); margin: 0 auto; }
+    header { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px 20px; align-items: baseline; margin-bottom: 16px; }
+    h1 { font-size: clamp(15px, 2vw, 20px); font-weight: 700; letter-spacing: .02em; margin: 0; color: #f2e5b5; }
+    p { margin: 0; }
+    .lead { color: #a7b49f; font-size: 13px; line-height: 1.5; }
+    .screen { position: relative; overflow: visible; }
+    .screen > svg { display: block; width: 100%; height: auto; border: 1px solid #63542d; background: #10151b; }
+    .screen rect.contribution-target { fill: transparent; cursor: crosshair; pointer-events: all; }
+    .screen rect.contribution-target:focus-visible { outline: none; stroke: #fff4bd; stroke-width: 1.4; fill: #ffffff18; }
+    .screen rect.contribution-target:hover { stroke: #fff4bd; stroke-width: .8; fill: #ffffff16; }
+    .tooltip { position: fixed; display: none; pointer-events: none; z-index: 10; padding: 10px 12px; border: 1px solid #b99a53; background: #0d1117; box-shadow: 0 3px 10px #000a; font-size: 12px; line-height: 1.5; max-width: min(280px, 80vw); }
+    .tooltip.visible { display: block; }
+    .tooltip strong { color: #f1d071; font-weight: 700; }
+    .tooltip span { display: block; color: #f2e5b5; }
+    .details { border: 1px solid #41391f; background: #131a18; padding: 12px 15px; margin-top: 14px; min-height: 70px; display: flex; flex-direction: column; justify-content: center; gap: 5px; }
+    .details strong { font-size: 13px; color: #f1d071; }
+    .details span { font-size: 13px; color: #d3dccb; }
+    footer { font-size: 12px; line-height: 1.6; margin-top: 18px; color: #a7b49f; }
+    a { color: #f1d071; text-underline-offset: 3px; }
+    a:focus-visible { outline: 2px solid #f1d071; outline-offset: 3px; }
+    @media (prefers-reduced-motion: reduce) { .tooltip { transition: none; } }
+  </style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>THE LEGEND OF COMMITS</h1>
+    <p class="lead">Hover, tap, or focus a square to view its contribution count.</p>
+  </header>
+  <div id="screen" class="screen" aria-label="Animated Zelda contribution calendar">
+    <p id="loading" class="lead" role="status">Loading the contribution calendar…</p>
+  </div>
+  <div id="details" class="details" aria-live="polite">
+    <strong id="selected-date">Choose a contribution square</strong>
+    <span id="selected-count">The animated map uses real GitHub contribution data.</span>
+  </div>
+  <footer>
+    <a href="https://github.com/drabhikroy">Return to the GitHub profile</a>
+    &nbsp;·&nbsp; The animation and the day counts are generated from the same SVG.
+  </footer>
+</main>
+<div id="tooltip" class="tooltip" role="tooltip" aria-hidden="true"><strong></strong><span></span></div>
+<script>
+(() => {
+  'use strict';
+  const SVG_NS = 'http://www.w3.org/2000/svg';
+  const screen = document.getElementById('screen');
+  const tooltip = document.getElementById('tooltip');
+  const tipDate = tooltip.querySelector('strong');
+  const tipCount = tooltip.querySelector('span');
+  const selectedDate = document.getElementById('selected-date');
+  const selectedCount = document.getElementById('selected-count');
+  let pinned = false;
+  let activeRect = null;
+
+  function formatDate(date) {
+    return new Intl.DateTimeFormat('en-US', {
+      weekday: 'long', month: 'long', day: 'numeric', year: 'numeric', timeZone: 'UTC'
+    }).format(new Date(date + 'T12:00:00Z'));
+  }
+
+  function moveTooltip(x, y) {
+    const pad = 12;
+    const box = tooltip.getBoundingClientRect();
+    let left = x + 12;
+    if (left + box.width > innerWidth - pad) left = x - box.width - 12;
+    left = Math.min(Math.max(pad, left), innerWidth - box.width - pad);
+    const top = y > box.height + 24 ? y - box.height - 12 : y + 18;
+    tooltip.style.left = `${left}px`;
+    tooltip.style.top = `${Math.max(pad, top)}px`;
+  }
+
+  function display(rect, x, y, persist = false) {
+    if (pinned && !persist && activeRect !== rect) return;
+    activeRect = rect;
+    if (persist) pinned = true;
+    const date = formatDate(rect.dataset.date);
+    const count = Number(rect.dataset.count);
+    const summary = `${count.toLocaleString('en-US')} contribution${count === 1 ? '' : 's'}`;
+    tipDate.textContent = date;
+    tipCount.textContent = summary;
+    selectedDate.textContent = date;
+    selectedCount.textContent = summary;
+    tooltip.classList.add('visible');
+    tooltip.setAttribute('aria-hidden', 'false');
+    moveTooltip(x, y);
+  }
+
+  function hide() {
+    if (pinned) return;
+    tooltip.classList.remove('visible');
+    tooltip.setAttribute('aria-hidden', 'true');
+  }
+
+  function attachHitboxes(svg) {
+    const group = document.createElementNS(SVG_NS, 'g');
+    group.setAttribute('id', 'day-hover-targets');
+    group.setAttribute('aria-label', 'Contribution dates');
+    const datePattern = /^(\d{4}-\d{2}-\d{2}):\s*(\d+)\s+contributions?$/;
+    let count = 0;
+    for (const rect of svg.querySelectorAll('rect')) {
+      const title = Array.from(rect.children).find(node => node.localName === 'title');
+      if (!title) continue;
+      const match = title.textContent.trim().match(datePattern);
+      if (!match) continue;
+      const hit = document.createElementNS(SVG_NS, 'rect');
+      for (const attr of ['x', 'y', 'width', 'height']) {
+        hit.setAttribute(attr, rect.getAttribute(attr));
+      }
+      hit.setAttribute('class', 'contribution-target');
+      hit.setAttribute('tabindex', '0');
+      hit.setAttribute('role', 'button');
+      hit.setAttribute('aria-label', `${formatDate(match[1])}: ${match[2]} contributions`);
+      hit.dataset.date = match[1];
+      hit.dataset.count = match[2];
+      hit.addEventListener('pointerenter', event => {
+        if (event.pointerType !== 'touch') { pinned = false; display(hit, event.clientX, event.clientY); }
+      });
+      hit.addEventListener('pointermove', event => {
+        if (event.pointerType !== 'touch' && !pinned) display(hit, event.clientX, event.clientY);
+      });
+      hit.addEventListener('pointerleave', hide);
+      hit.addEventListener('click', event => {
+        const alreadyPinned = pinned && activeRect === hit;
+        pinned = false;
+        if (alreadyPinned) { hide(); return; }
+        display(hit, event.clientX, event.clientY, true);
+      });
+      hit.addEventListener('focus', () => {
+        pinned = false;
+        const box = hit.getBoundingClientRect();
+        display(hit, box.left + box.width / 2, box.top + box.height / 2);
+      });
+      hit.addEventListener('blur', hide);
+      hit.addEventListener('keydown', event => {
+        if (event.key === 'Enter' || event.key === ' ') {
+          event.preventDefault();
+          const bounds = hit.getBoundingClientRect();
+          display(hit, bounds.left + bounds.width / 2, bounds.top + bounds.height / 2, true);
+        }
+      });
+      group.append(hit);
+      count += 1;
+    }
+    if (!count) throw new Error('No dated contribution squares were found in the SVG.');
+    svg.append(group); // Above the character/scenery so each date can be selected.
+    return count;
+  }
+
+  document.addEventListener('keydown', event => {
+    if (event.key === 'Escape') {
+      pinned = false;
+      activeRect = null;
+      hide();
+    }
+  });
+  document.addEventListener('pointerdown', event => {
+    if (!event.target.closest('.contribution-target')) {
+      pinned = false;
+      hide();
+    }
+  });
+
+  fetch('./zelda-contributions.svg', { cache: 'no-store' })
+    .then(response => {
+      if (!response.ok) throw new Error(`SVG unavailable (HTTP ${response.status})`);
+      return response.text();
+    })
+    .then(source => {
+      const documentSvg = new DOMParser().parseFromString(source, 'image/svg+xml');
+      if (documentSvg.querySelector('parsererror')) throw new Error('SVG could not be parsed.');
+      const svg = document.importNode(documentSvg.documentElement, true);
+      if (svg.localName !== 'svg') throw new Error('Unexpected image format.');
+      svg.removeAttribute('width');
+      svg.removeAttribute('height');
+      const n = attachHitboxes(svg);
+      document.getElementById('loading').remove();
+      screen.append(svg);
+      screen.setAttribute('aria-label', `Animated contribution graph with ${n} dated cells`);
+    })
+    .catch(error => {
+      document.getElementById('loading').textContent =
+        `Could not load the interactive calendar: ${error.message}`;
+      console.error(error);
+    });
+})();
+</script>
+</body>
+</html>
