@@ -133,10 +133,20 @@
 <br>
 <br>
 
+
 <p align="center">
-  <img
-    src="./img/zelda-contributions.svg"
-    alt="The Legend of Commits - Animated NES Zelda-inspired GitHub contributions"
-    width="100%">
+  <a href="https://drabhikroy.github.io/drabhikroy/">
+    <img
+      src="./img/zelda-contributions.svg"
+      alt="The Legend of Commits - Animated GitHub contributions"
+      width="100%">
+  </a>
 </p>
+
+<p align="center">
+  <a href="https://drabhikroy.github.io/drabhikroy/">
+    View interactive contribution details
+  </a>
+</p>
+
 
