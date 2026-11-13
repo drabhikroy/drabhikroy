@@ -19,6 +19,9 @@
 
 ### <img src="/icons/shiny-hex.svg" alt="" height="24" align="absmiddle">&nbsp;&#8202;R Shiny Apps
 
+- <img src="/icons/overmaps-icon-dark.svg" alt="" height="18" align="absmiddle"> **[Overmaps](https://github.com/drabhikroy/overmaps)** &ndash; Map maker for the streets of any place and for the roads and cities of the ancient world, with print-ready downloads.<br>
+  <code>Street Networks</code> <code>Cartography</code> <code>OpenStreetMap</code> <code>Data Visualization</code>
+
 - <img src="/icons/daybreak-icon-dark.svg" alt="" height="18" align="absmiddle"> **[Daybreak](https://github.com/drabhikroy/daybreak)** &ndash; Platform for statistical analysis and automated reporting with optional local ML.<br>
   <code>Statistical Analysis</code> <code>Automated Reporting</code> <code>Data Visualization</code> <code>Machine Learning</code>
 
